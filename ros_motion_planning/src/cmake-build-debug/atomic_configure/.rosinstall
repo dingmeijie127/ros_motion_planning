@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/dmj/study/ros_motion_planning/src/cmake-build-debug/devel/setup.sh

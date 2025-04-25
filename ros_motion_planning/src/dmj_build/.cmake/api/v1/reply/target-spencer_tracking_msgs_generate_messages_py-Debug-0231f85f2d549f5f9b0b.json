@@ -1,0 +1,362 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/cmake/spencer_tracking_msgs-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 737,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 849,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 846,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 744,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 746,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 748,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 750,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 752,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 754,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 756,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 758,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 760,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 762,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 764,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 766,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 768,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 770,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "std_msgs_generate_messages_py::@3efa22c82c8565046a10"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "geometry_msgs_generate_messages_py::@a8c7b752f9d5d6fb9dcb"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "_spencer_tracking_msgs_generate_messages_check_deps_DetectedPerson::@a8c7b752f9d5d6fb9dcb"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "_spencer_tracking_msgs_generate_messages_check_deps_DetectedPersons::@a8c7b752f9d5d6fb9dcb"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "_spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPerson::@a8c7b752f9d5d6fb9dcb"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "_spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPersons::@a8c7b752f9d5d6fb9dcb"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "_spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson::@a8c7b752f9d5d6fb9dcb"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "_spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons::@a8c7b752f9d5d6fb9dcb"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "_spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson2d::@a8c7b752f9d5d6fb9dcb"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "_spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons2d::@a8c7b752f9d5d6fb9dcb"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "_spencer_tracking_msgs_generate_messages_check_deps_TrackedGroup::@a8c7b752f9d5d6fb9dcb"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "_spencer_tracking_msgs_generate_messages_check_deps_TrackedGroups::@a8c7b752f9d5d6fb9dcb"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "_spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfo::@a8c7b752f9d5d6fb9dcb"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "_spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfos::@a8c7b752f9d5d6fb9dcb"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "_spencer_tracking_msgs_generate_messages_check_deps_TrackingTimingMetrics::@a8c7b752f9d5d6fb9dcb"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "_spencer_tracking_msgs_generate_messages_check_deps_GetPersonTrajectories::@a8c7b752f9d5d6fb9dcb"
+		}
+	],
+	"id" : "spencer_tracking_msgs_generate_messages_py::@a8c7b752f9d5d6fb9dcb",
+	"name" : "spencer_tracking_msgs_generate_messages_py",
+	"paths" : 
+	{
+		"build" : "plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs",
+		"source" : "plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs/msg/_CompositeDetectedPerson.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs/msg/_CompositeDetectedPersons.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs/msg/_DetectedPerson.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs/msg/_DetectedPersons.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs/msg/_ImmDebugInfo.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs/msg/_ImmDebugInfos.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs/msg/_TrackedGroup.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs/msg/_TrackedGroups.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs/msg/_TrackedPerson.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs/msg/_TrackedPerson2d.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs/msg/_TrackedPersons.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs/msg/_TrackedPersons2d.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs/msg/_TrackingTimingMetrics.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs/msg/__init__.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs/srv/_GetPersonTrajectories.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs/srv/__init__.py.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

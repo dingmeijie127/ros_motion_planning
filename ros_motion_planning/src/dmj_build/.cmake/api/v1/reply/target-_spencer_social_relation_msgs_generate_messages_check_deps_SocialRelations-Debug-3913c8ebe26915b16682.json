@@ -1,0 +1,86 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages"
+		],
+		"files" : 
+		[
+			"dmj_build/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/cmake/spencer_social_relation_msgs-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 3
+			}
+		]
+	},
+	"id" : "_spencer_social_relation_msgs_generate_messages_check_deps_SocialRelations::@27d2a750195b931f70a6",
+	"name" : "_spencer_social_relation_msgs_generate_messages_check_deps_SocialRelations",
+	"paths" : 
+	{
+		"build" : "plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs",
+		"source" : "plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "dmj_build/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/_spencer_social_relation_msgs_generate_messages_check_deps_SocialRelations",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "dmj_build/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/_spencer_social_relation_msgs_generate_messages_check_deps_SocialRelations.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

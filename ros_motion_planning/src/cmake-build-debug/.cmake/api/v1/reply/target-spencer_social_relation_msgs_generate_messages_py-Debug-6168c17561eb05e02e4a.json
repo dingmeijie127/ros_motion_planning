@@ -1,0 +1,205 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/cmake/spencer_social_relation_msgs-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 307,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 429,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 420,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 423,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 314,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 316,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 318,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 320,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "std_msgs_generate_messages_py::@3efa22c82c8565046a10"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "geometry_msgs_generate_messages_py::@a8c7b752f9d5d6fb9dcb"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "sensor_msgs_generate_messages_py::@b1f443153c7cbe1822e6"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "nav_msgs_generate_messages_py::@b1f443153c7cbe1822e6"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "_spencer_social_relation_msgs_generate_messages_check_deps_SocialRelation::@27d2a750195b931f70a6"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "_spencer_social_relation_msgs_generate_messages_check_deps_SocialRelations::@27d2a750195b931f70a6"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "_spencer_social_relation_msgs_generate_messages_check_deps_SocialActivity::@27d2a750195b931f70a6"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "_spencer_social_relation_msgs_generate_messages_check_deps_SocialActivities::@27d2a750195b931f70a6"
+		}
+	],
+	"id" : "spencer_social_relation_msgs_generate_messages_py::@27d2a750195b931f70a6",
+	"name" : "spencer_social_relation_msgs_generate_messages_py",
+	"paths" : 
+	{
+		"build" : "plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs",
+		"source" : "plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/lib/python3/dist-packages/spencer_social_relation_msgs/msg/_SocialActivities.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/lib/python3/dist-packages/spencer_social_relation_msgs/msg/_SocialActivity.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/lib/python3/dist-packages/spencer_social_relation_msgs/msg/_SocialRelation.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/lib/python3/dist-packages/spencer_social_relation_msgs/msg/_SocialRelations.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/devel/lib/python3/dist-packages/spencer_social_relation_msgs/msg/__init__.py.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,109 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/cmake/spencer_vision_msgs-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 82,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 139,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 196,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 253,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 310,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "spencer_vision_msgs_generate_messages_cpp::@5c7008ab60312d423c55"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "spencer_vision_msgs_generate_messages_eus::@5c7008ab60312d423c55"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "spencer_vision_msgs_generate_messages_lisp::@5c7008ab60312d423c55"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "spencer_vision_msgs_generate_messages_nodejs::@5c7008ab60312d423c55"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "spencer_vision_msgs_generate_messages_py::@5c7008ab60312d423c55"
+		}
+	],
+	"id" : "spencer_vision_msgs_generate_messages::@5c7008ab60312d423c55",
+	"name" : "spencer_vision_msgs_generate_messages",
+	"paths" : 
+	{
+		"build" : "plugins/rviz_plugins/spencer_messages/spencer_vision_msgs",
+		"source" : "plugins/rviz_plugins/spencer_messages/spencer_vision_msgs"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
