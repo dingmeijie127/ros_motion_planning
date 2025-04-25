@@ -53,10 +53,10 @@ RM = /home/dmj/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dmj/study/ros_motion_planning/src
+CMAKE_SOURCE_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dmj/study/ros_motion_planning/src/dmj_build
+CMAKE_BINARY_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build
 
 # Utility rule file for gazebo_sfm_plugin_genpy.
 
@@ -74,10 +74,10 @@ plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genpy.
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genpy.dir/build
 
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genpy.dir/clean:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_sfm_plugin && $(CMAKE_COMMAND) -P CMakeFiles/gazebo_sfm_plugin_genpy.dir/cmake_clean.cmake
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_sfm_plugin && $(CMAKE_COMMAND) -P CMakeFiles/gazebo_sfm_plugin_genpy.dir/cmake_clean.cmake
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genpy.dir/clean
 
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genpy.dir/depend:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmj/study/ros_motion_planning/src /home/dmj/study/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_sfm_plugin /home/dmj/study/ros_motion_planning/src/dmj_build /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_sfm_plugin /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genpy.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmj/study/dmj_learn/ros_motion_planning/src /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_sfm_plugin /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_sfm_plugin /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genpy.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genpy.dir/depend
 

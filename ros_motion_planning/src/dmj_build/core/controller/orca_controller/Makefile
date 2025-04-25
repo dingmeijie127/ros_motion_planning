@@ -57,10 +57,10 @@ RM = /home/dmj/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dmj/study/ros_motion_planning/src
+CMAKE_SOURCE_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dmj/study/ros_motion_planning/src/dmj_build
+CMAKE_BINARY_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/ros_motion_planning/src/dmj_build/CMakeFiles /home/dmj/study/ros_motion_planning/src/dmj_build/core/controller/orca_controller//CMakeFiles/progress.marks
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/controller/orca_controller/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/ros_motion_planning/src/dmj_build/CMakeFiles 0
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/core/controller/orca_controller//CMakeFiles/progress.marks
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/controller/orca_controller/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/controller/orca_controller/clean
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/controller/orca_controller/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/controller/orca_controller/preinstall
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/controller/orca_controller/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/controller/orca_controller/preinstall
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/controller/orca_controller/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 core/controller/orca_controller/CMakeFiles/RVO.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/controller/orca_controller/CMakeFiles/RVO.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/controller/orca_controller/CMakeFiles/RVO.dir/rule
 .PHONY : core/controller/orca_controller/CMakeFiles/RVO.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ RVO: core/controller/orca_controller/CMakeFiles/RVO.dir/rule
 
 # fast build rule for target.
 RVO/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/build
 .PHONY : RVO/fast
 
 # Convenience name for target.
 core/controller/orca_controller/CMakeFiles/orca_controller.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/controller/orca_controller/CMakeFiles/orca_controller.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core/controller/orca_controller/CMakeFiles/orca_controller.dir/rule
 .PHONY : core/controller/orca_controller/CMakeFiles/orca_controller.dir/rule
 
 # Convenience name for target.
@@ -196,7 +196,7 @@ orca_controller: core/controller/orca_controller/CMakeFiles/orca_controller.dir/
 
 # fast build rule for target.
 orca_controller/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/orca_controller.dir/build.make core/controller/orca_controller/CMakeFiles/orca_controller.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/orca_controller.dir/build.make core/controller/orca_controller/CMakeFiles/orca_controller.dir/build
 .PHONY : orca_controller/fast
 
 include/RVO/Agent.o: include/RVO/Agent.cc.o
@@ -204,7 +204,7 @@ include/RVO/Agent.o: include/RVO/Agent.cc.o
 
 # target to build an object file
 include/RVO/Agent.cc.o:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Agent.cc.o
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Agent.cc.o
 .PHONY : include/RVO/Agent.cc.o
 
 include/RVO/Agent.i: include/RVO/Agent.cc.i
@@ -212,7 +212,7 @@ include/RVO/Agent.i: include/RVO/Agent.cc.i
 
 # target to preprocess a source file
 include/RVO/Agent.cc.i:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Agent.cc.i
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Agent.cc.i
 .PHONY : include/RVO/Agent.cc.i
 
 include/RVO/Agent.s: include/RVO/Agent.cc.s
@@ -220,7 +220,7 @@ include/RVO/Agent.s: include/RVO/Agent.cc.s
 
 # target to generate assembly for a file
 include/RVO/Agent.cc.s:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Agent.cc.s
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Agent.cc.s
 .PHONY : include/RVO/Agent.cc.s
 
 include/RVO/KdTree.o: include/RVO/KdTree.cc.o
@@ -228,7 +228,7 @@ include/RVO/KdTree.o: include/RVO/KdTree.cc.o
 
 # target to build an object file
 include/RVO/KdTree.cc.o:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/KdTree.cc.o
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/KdTree.cc.o
 .PHONY : include/RVO/KdTree.cc.o
 
 include/RVO/KdTree.i: include/RVO/KdTree.cc.i
@@ -236,7 +236,7 @@ include/RVO/KdTree.i: include/RVO/KdTree.cc.i
 
 # target to preprocess a source file
 include/RVO/KdTree.cc.i:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/KdTree.cc.i
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/KdTree.cc.i
 .PHONY : include/RVO/KdTree.cc.i
 
 include/RVO/KdTree.s: include/RVO/KdTree.cc.s
@@ -244,7 +244,7 @@ include/RVO/KdTree.s: include/RVO/KdTree.cc.s
 
 # target to generate assembly for a file
 include/RVO/KdTree.cc.s:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/KdTree.cc.s
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/KdTree.cc.s
 .PHONY : include/RVO/KdTree.cc.s
 
 include/RVO/Line.o: include/RVO/Line.cc.o
@@ -252,7 +252,7 @@ include/RVO/Line.o: include/RVO/Line.cc.o
 
 # target to build an object file
 include/RVO/Line.cc.o:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Line.cc.o
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Line.cc.o
 .PHONY : include/RVO/Line.cc.o
 
 include/RVO/Line.i: include/RVO/Line.cc.i
@@ -260,7 +260,7 @@ include/RVO/Line.i: include/RVO/Line.cc.i
 
 # target to preprocess a source file
 include/RVO/Line.cc.i:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Line.cc.i
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Line.cc.i
 .PHONY : include/RVO/Line.cc.i
 
 include/RVO/Line.s: include/RVO/Line.cc.s
@@ -268,7 +268,7 @@ include/RVO/Line.s: include/RVO/Line.cc.s
 
 # target to generate assembly for a file
 include/RVO/Line.cc.s:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Line.cc.s
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Line.cc.s
 .PHONY : include/RVO/Line.cc.s
 
 include/RVO/Obstacle.o: include/RVO/Obstacle.cc.o
@@ -276,7 +276,7 @@ include/RVO/Obstacle.o: include/RVO/Obstacle.cc.o
 
 # target to build an object file
 include/RVO/Obstacle.cc.o:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Obstacle.cc.o
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Obstacle.cc.o
 .PHONY : include/RVO/Obstacle.cc.o
 
 include/RVO/Obstacle.i: include/RVO/Obstacle.cc.i
@@ -284,7 +284,7 @@ include/RVO/Obstacle.i: include/RVO/Obstacle.cc.i
 
 # target to preprocess a source file
 include/RVO/Obstacle.cc.i:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Obstacle.cc.i
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Obstacle.cc.i
 .PHONY : include/RVO/Obstacle.cc.i
 
 include/RVO/Obstacle.s: include/RVO/Obstacle.cc.s
@@ -292,7 +292,7 @@ include/RVO/Obstacle.s: include/RVO/Obstacle.cc.s
 
 # target to generate assembly for a file
 include/RVO/Obstacle.cc.s:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Obstacle.cc.s
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Obstacle.cc.s
 .PHONY : include/RVO/Obstacle.cc.s
 
 include/RVO/RVOSimulator.o: include/RVO/RVOSimulator.cc.o
@@ -300,7 +300,7 @@ include/RVO/RVOSimulator.o: include/RVO/RVOSimulator.cc.o
 
 # target to build an object file
 include/RVO/RVOSimulator.cc.o:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/RVOSimulator.cc.o
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/RVOSimulator.cc.o
 .PHONY : include/RVO/RVOSimulator.cc.o
 
 include/RVO/RVOSimulator.i: include/RVO/RVOSimulator.cc.i
@@ -308,7 +308,7 @@ include/RVO/RVOSimulator.i: include/RVO/RVOSimulator.cc.i
 
 # target to preprocess a source file
 include/RVO/RVOSimulator.cc.i:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/RVOSimulator.cc.i
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/RVOSimulator.cc.i
 .PHONY : include/RVO/RVOSimulator.cc.i
 
 include/RVO/RVOSimulator.s: include/RVO/RVOSimulator.cc.s
@@ -316,7 +316,7 @@ include/RVO/RVOSimulator.s: include/RVO/RVOSimulator.cc.s
 
 # target to generate assembly for a file
 include/RVO/RVOSimulator.cc.s:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/RVOSimulator.cc.s
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/RVOSimulator.cc.s
 .PHONY : include/RVO/RVOSimulator.cc.s
 
 include/RVO/Vector2.o: include/RVO/Vector2.cc.o
@@ -324,7 +324,7 @@ include/RVO/Vector2.o: include/RVO/Vector2.cc.o
 
 # target to build an object file
 include/RVO/Vector2.cc.o:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Vector2.cc.o
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Vector2.cc.o
 .PHONY : include/RVO/Vector2.cc.o
 
 include/RVO/Vector2.i: include/RVO/Vector2.cc.i
@@ -332,7 +332,7 @@ include/RVO/Vector2.i: include/RVO/Vector2.cc.i
 
 # target to preprocess a source file
 include/RVO/Vector2.cc.i:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Vector2.cc.i
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Vector2.cc.i
 .PHONY : include/RVO/Vector2.cc.i
 
 include/RVO/Vector2.s: include/RVO/Vector2.cc.s
@@ -340,7 +340,7 @@ include/RVO/Vector2.s: include/RVO/Vector2.cc.s
 
 # target to generate assembly for a file
 include/RVO/Vector2.cc.s:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Vector2.cc.s
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/RVO.dir/build.make core/controller/orca_controller/CMakeFiles/RVO.dir/include/RVO/Vector2.cc.s
 .PHONY : include/RVO/Vector2.cc.s
 
 src/orca_controller.o: src/orca_controller.cpp.o
@@ -348,7 +348,7 @@ src/orca_controller.o: src/orca_controller.cpp.o
 
 # target to build an object file
 src/orca_controller.cpp.o:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/orca_controller.dir/build.make core/controller/orca_controller/CMakeFiles/orca_controller.dir/src/orca_controller.cpp.o
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/orca_controller.dir/build.make core/controller/orca_controller/CMakeFiles/orca_controller.dir/src/orca_controller.cpp.o
 .PHONY : src/orca_controller.cpp.o
 
 src/orca_controller.i: src/orca_controller.cpp.i
@@ -356,7 +356,7 @@ src/orca_controller.i: src/orca_controller.cpp.i
 
 # target to preprocess a source file
 src/orca_controller.cpp.i:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/orca_controller.dir/build.make core/controller/orca_controller/CMakeFiles/orca_controller.dir/src/orca_controller.cpp.i
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/orca_controller.dir/build.make core/controller/orca_controller/CMakeFiles/orca_controller.dir/src/orca_controller.cpp.i
 .PHONY : src/orca_controller.cpp.i
 
 src/orca_controller.s: src/orca_controller.cpp.s
@@ -364,7 +364,7 @@ src/orca_controller.s: src/orca_controller.cpp.s
 
 # target to generate assembly for a file
 src/orca_controller.cpp.s:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/orca_controller.dir/build.make core/controller/orca_controller/CMakeFiles/orca_controller.dir/src/orca_controller.cpp.s
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f core/controller/orca_controller/CMakeFiles/orca_controller.dir/build.make core/controller/orca_controller/CMakeFiles/orca_controller.dir/src/orca_controller.cpp.s
 .PHONY : src/orca_controller.cpp.s
 
 # Help Target
@@ -414,6 +414,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

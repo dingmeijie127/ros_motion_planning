@@ -57,10 +57,10 @@ RM = /home/dmj/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dmj/study/ros_motion_planning/src
+CMAKE_SOURCE_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dmj/study/ros_motion_planning/src/dmj_build
+CMAKE_BINARY_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/ros_motion_planning/src/dmj_build/CMakeFiles /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs//CMakeFiles/progress.marks
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/ros_motion_planning/src/dmj_build/CMakeFiles 0
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs//CMakeFiles/progress.marks
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/clean
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/preinstall
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/preinstall
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ geometry_msgs_generate_messages_cpp: plugins/rviz_plugins/spencer_messages/spenc
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -196,12 +196,12 @@ geometry_msgs_generate_messages_eus: plugins/rviz_plugins/spencer_messages/spenc
 
 # fast build rule for target.
 geometry_msgs_generate_messages_eus/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -210,12 +210,12 @@ geometry_msgs_generate_messages_lisp: plugins/rviz_plugins/spencer_messages/spen
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ geometry_msgs_generate_messages_nodejs: plugins/rviz_plugins/spencer_messages/sp
 
 # fast build rule for target.
 geometry_msgs_generate_messages_nodejs/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -238,12 +238,12 @@ geometry_msgs_generate_messages_py: plugins/rviz_plugins/spencer_messages/spence
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ spencer_tracking_msgs_generate_messages: plugins/rviz_plugins/spencer_messages/s
 
 # fast build rule for target.
 spencer_tracking_msgs_generate_messages/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages.dir/build
 .PHONY : spencer_tracking_msgs_generate_messages/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_DetectedPerson.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_DetectedPerson.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_DetectedPerson.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_DetectedPerson.dir/rule
 
 # Convenience name for target.
@@ -266,12 +266,12 @@ _spencer_tracking_msgs_generate_messages_check_deps_DetectedPerson: plugins/rviz
 
 # fast build rule for target.
 _spencer_tracking_msgs_generate_messages_check_deps_DetectedPerson/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_DetectedPerson.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_DetectedPerson.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_DetectedPerson.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_DetectedPerson.dir/build
 .PHONY : _spencer_tracking_msgs_generate_messages_check_deps_DetectedPerson/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_DetectedPersons.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_DetectedPersons.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_DetectedPersons.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_DetectedPersons.dir/rule
 
 # Convenience name for target.
@@ -280,12 +280,12 @@ _spencer_tracking_msgs_generate_messages_check_deps_DetectedPersons: plugins/rvi
 
 # fast build rule for target.
 _spencer_tracking_msgs_generate_messages_check_deps_DetectedPersons/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_DetectedPersons.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_DetectedPersons.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_DetectedPersons.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_DetectedPersons.dir/build
 .PHONY : _spencer_tracking_msgs_generate_messages_check_deps_DetectedPersons/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPerson.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPerson.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPerson.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPerson.dir/rule
 
 # Convenience name for target.
@@ -294,12 +294,12 @@ _spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPerson: plu
 
 # fast build rule for target.
 _spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPerson/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPerson.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPerson.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPerson.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPerson.dir/build
 .PHONY : _spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPerson/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPersons.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPersons.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPersons.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPersons.dir/rule
 
 # Convenience name for target.
@@ -308,12 +308,12 @@ _spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPersons: pl
 
 # fast build rule for target.
 _spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPersons/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPersons.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPersons.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPersons.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPersons.dir/build
 .PHONY : _spencer_tracking_msgs_generate_messages_check_deps_CompositeDetectedPersons/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson.dir/rule
 
 # Convenience name for target.
@@ -322,12 +322,12 @@ _spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson: plugins/rviz_
 
 # fast build rule for target.
 _spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson.dir/build
 .PHONY : _spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons.dir/rule
 
 # Convenience name for target.
@@ -336,12 +336,12 @@ _spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons: plugins/rviz
 
 # fast build rule for target.
 _spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons.dir/build
 .PHONY : _spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson2d.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson2d.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson2d.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson2d.dir/rule
 
 # Convenience name for target.
@@ -350,12 +350,12 @@ _spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson2d: plugins/rvi
 
 # fast build rule for target.
 _spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson2d/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson2d.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson2d.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson2d.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson2d.dir/build
 .PHONY : _spencer_tracking_msgs_generate_messages_check_deps_TrackedPerson2d/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons2d.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons2d.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons2d.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons2d.dir/rule
 
 # Convenience name for target.
@@ -364,12 +364,12 @@ _spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons2d: plugins/rv
 
 # fast build rule for target.
 _spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons2d/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons2d.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons2d.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons2d.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons2d.dir/build
 .PHONY : _spencer_tracking_msgs_generate_messages_check_deps_TrackedPersons2d/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedGroup.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedGroup.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedGroup.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedGroup.dir/rule
 
 # Convenience name for target.
@@ -378,12 +378,12 @@ _spencer_tracking_msgs_generate_messages_check_deps_TrackedGroup: plugins/rviz_p
 
 # fast build rule for target.
 _spencer_tracking_msgs_generate_messages_check_deps_TrackedGroup/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedGroup.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedGroup.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedGroup.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedGroup.dir/build
 .PHONY : _spencer_tracking_msgs_generate_messages_check_deps_TrackedGroup/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedGroups.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedGroups.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedGroups.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedGroups.dir/rule
 
 # Convenience name for target.
@@ -392,12 +392,12 @@ _spencer_tracking_msgs_generate_messages_check_deps_TrackedGroups: plugins/rviz_
 
 # fast build rule for target.
 _spencer_tracking_msgs_generate_messages_check_deps_TrackedGroups/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedGroups.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedGroups.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedGroups.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackedGroups.dir/build
 .PHONY : _spencer_tracking_msgs_generate_messages_check_deps_TrackedGroups/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfo.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfo.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfo.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfo.dir/rule
 
 # Convenience name for target.
@@ -406,12 +406,12 @@ _spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfo: plugins/rviz_p
 
 # fast build rule for target.
 _spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfo/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfo.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfo.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfo.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfo.dir/build
 .PHONY : _spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfo/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfos.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfos.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfos.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfos.dir/rule
 
 # Convenience name for target.
@@ -420,12 +420,12 @@ _spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfos: plugins/rviz_
 
 # fast build rule for target.
 _spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfos/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfos.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfos.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfos.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfos.dir/build
 .PHONY : _spencer_tracking_msgs_generate_messages_check_deps_ImmDebugInfos/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackingTimingMetrics.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackingTimingMetrics.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackingTimingMetrics.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackingTimingMetrics.dir/rule
 
 # Convenience name for target.
@@ -434,12 +434,12 @@ _spencer_tracking_msgs_generate_messages_check_deps_TrackingTimingMetrics: plugi
 
 # fast build rule for target.
 _spencer_tracking_msgs_generate_messages_check_deps_TrackingTimingMetrics/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackingTimingMetrics.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackingTimingMetrics.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackingTimingMetrics.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_TrackingTimingMetrics.dir/build
 .PHONY : _spencer_tracking_msgs_generate_messages_check_deps_TrackingTimingMetrics/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_GetPersonTrajectories.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_GetPersonTrajectories.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_GetPersonTrajectories.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_GetPersonTrajectories.dir/rule
 
 # Convenience name for target.
@@ -448,12 +448,12 @@ _spencer_tracking_msgs_generate_messages_check_deps_GetPersonTrajectories: plugi
 
 # fast build rule for target.
 _spencer_tracking_msgs_generate_messages_check_deps_GetPersonTrajectories/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_GetPersonTrajectories.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_GetPersonTrajectories.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_GetPersonTrajectories.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/_spencer_tracking_msgs_generate_messages_check_deps_GetPersonTrajectories.dir/build
 .PHONY : _spencer_tracking_msgs_generate_messages_check_deps_GetPersonTrajectories/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_cpp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_cpp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_cpp.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -462,12 +462,12 @@ spencer_tracking_msgs_generate_messages_cpp: plugins/rviz_plugins/spencer_messag
 
 # fast build rule for target.
 spencer_tracking_msgs_generate_messages_cpp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_cpp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_cpp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_cpp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_cpp.dir/build
 .PHONY : spencer_tracking_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_gencpp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_gencpp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_gencpp.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_gencpp.dir/rule
 
 # Convenience name for target.
@@ -476,12 +476,12 @@ spencer_tracking_msgs_gencpp: plugins/rviz_plugins/spencer_messages/spencer_trac
 
 # fast build rule for target.
 spencer_tracking_msgs_gencpp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_gencpp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_gencpp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_gencpp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_gencpp.dir/build
 .PHONY : spencer_tracking_msgs_gencpp/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_eus.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_eus.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_eus.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -490,12 +490,12 @@ spencer_tracking_msgs_generate_messages_eus: plugins/rviz_plugins/spencer_messag
 
 # fast build rule for target.
 spencer_tracking_msgs_generate_messages_eus/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_eus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_eus.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_eus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_eus.dir/build
 .PHONY : spencer_tracking_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_geneus.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_geneus.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_geneus.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_geneus.dir/rule
 
 # Convenience name for target.
@@ -504,12 +504,12 @@ spencer_tracking_msgs_geneus: plugins/rviz_plugins/spencer_messages/spencer_trac
 
 # fast build rule for target.
 spencer_tracking_msgs_geneus/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_geneus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_geneus.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_geneus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_geneus.dir/build
 .PHONY : spencer_tracking_msgs_geneus/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_lisp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_lisp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_lisp.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -518,12 +518,12 @@ spencer_tracking_msgs_generate_messages_lisp: plugins/rviz_plugins/spencer_messa
 
 # fast build rule for target.
 spencer_tracking_msgs_generate_messages_lisp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_lisp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_lisp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_lisp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_lisp.dir/build
 .PHONY : spencer_tracking_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_genlisp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_genlisp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_genlisp.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_genlisp.dir/rule
 
 # Convenience name for target.
@@ -532,12 +532,12 @@ spencer_tracking_msgs_genlisp: plugins/rviz_plugins/spencer_messages/spencer_tra
 
 # fast build rule for target.
 spencer_tracking_msgs_genlisp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_genlisp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_genlisp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_genlisp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_genlisp.dir/build
 .PHONY : spencer_tracking_msgs_genlisp/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_nodejs.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_nodejs.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -546,12 +546,12 @@ spencer_tracking_msgs_generate_messages_nodejs: plugins/rviz_plugins/spencer_mes
 
 # fast build rule for target.
 spencer_tracking_msgs_generate_messages_nodejs/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_nodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_nodejs.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_nodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_nodejs.dir/build
 .PHONY : spencer_tracking_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_gennodejs.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_gennodejs.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_gennodejs.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -560,12 +560,12 @@ spencer_tracking_msgs_gennodejs: plugins/rviz_plugins/spencer_messages/spencer_t
 
 # fast build rule for target.
 spencer_tracking_msgs_gennodejs/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_gennodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_gennodejs.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_gennodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_gennodejs.dir/build
 .PHONY : spencer_tracking_msgs_gennodejs/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_py.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_py.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_py.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -574,12 +574,12 @@ spencer_tracking_msgs_generate_messages_py: plugins/rviz_plugins/spencer_message
 
 # fast build rule for target.
 spencer_tracking_msgs_generate_messages_py/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_py.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_py.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_py.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_generate_messages_py.dir/build
 .PHONY : spencer_tracking_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_genpy.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_genpy.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_genpy.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_genpy.dir/rule
 
 # Convenience name for target.
@@ -588,7 +588,7 @@ spencer_tracking_msgs_genpy: plugins/rviz_plugins/spencer_messages/spencer_track
 
 # fast build rule for target.
 spencer_tracking_msgs_genpy/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_genpy.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_genpy.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_genpy.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_tracking_msgs_genpy.dir/build
 .PHONY : spencer_tracking_msgs_genpy/fast
 
 # Help Target
@@ -645,6 +645,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

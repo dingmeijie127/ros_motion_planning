@@ -57,10 +57,10 @@ RM = /home/dmj/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dmj/study/ros_motion_planning/src
+CMAKE_SOURCE_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dmj/study/ros_motion_planning/src/dmj_build
+CMAKE_BINARY_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/ros_motion_planning/src/dmj_build/CMakeFiles /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_sfm_plugin//CMakeFiles/progress.marks
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/ros_motion_planning/src/dmj_build/CMakeFiles 0
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_sfm_plugin//CMakeFiles/progress.marks
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/clean
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/preinstall
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/preinstall
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_ros_gencfg.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_ros_gencfg.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_ros_gencfg.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_ros_gencfg.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ gazebo_ros_gencfg: plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazeb
 
 # fast build rule for target.
 gazebo_ros_gencfg/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_ros_gencfg.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_ros_gencfg.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_ros_gencfg.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_ros_gencfg.dir/build
 .PHONY : gazebo_ros_gencfg/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -196,12 +196,12 @@ std_srvs_generate_messages_cpp: plugins/gazebo_plugins/pedestrian_sfm_plugin/CMa
 
 # fast build rule for target.
 std_srvs_generate_messages_cpp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
 .PHONY : std_srvs_generate_messages_cpp/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_eus.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -210,12 +210,12 @@ std_srvs_generate_messages_eus: plugins/gazebo_plugins/pedestrian_sfm_plugin/CMa
 
 # fast build rule for target.
 std_srvs_generate_messages_eus/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_eus.dir/build
 .PHONY : std_srvs_generate_messages_eus/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ std_srvs_generate_messages_lisp: plugins/gazebo_plugins/pedestrian_sfm_plugin/CM
 
 # fast build rule for target.
 std_srvs_generate_messages_lisp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
 .PHONY : std_srvs_generate_messages_lisp/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -238,12 +238,12 @@ std_srvs_generate_messages_nodejs: plugins/gazebo_plugins/pedestrian_sfm_plugin/
 
 # fast build rule for target.
 std_srvs_generate_messages_nodejs/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
 .PHONY : std_srvs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_py.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_py.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ std_srvs_generate_messages_py: plugins/gazebo_plugins/pedestrian_sfm_plugin/CMak
 
 # fast build rule for target.
 std_srvs_generate_messages_py/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_py.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_py.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_py.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/std_srvs_generate_messages_py.dir/build
 .PHONY : std_srvs_generate_messages_py/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -266,12 +266,12 @@ gazebo_msgs_generate_messages_cpp: plugins/gazebo_plugins/pedestrian_sfm_plugin/
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_cpp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
 .PHONY : gazebo_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -280,12 +280,12 @@ gazebo_msgs_generate_messages_eus: plugins/gazebo_plugins/pedestrian_sfm_plugin/
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_eus/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
 .PHONY : gazebo_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -294,12 +294,12 @@ gazebo_msgs_generate_messages_lisp: plugins/gazebo_plugins/pedestrian_sfm_plugin
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_lisp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
 .PHONY : gazebo_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -308,12 +308,12 @@ gazebo_msgs_generate_messages_nodejs: plugins/gazebo_plugins/pedestrian_sfm_plug
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_nodejs/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
 .PHONY : gazebo_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -322,12 +322,12 @@ gazebo_msgs_generate_messages_py: plugins/gazebo_plugins/pedestrian_sfm_plugin/C
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_py/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
 .PHONY : gazebo_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -336,12 +336,12 @@ trajectory_msgs_generate_messages_cpp: plugins/gazebo_plugins/pedestrian_sfm_plu
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_cpp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
 .PHONY : trajectory_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -350,12 +350,12 @@ trajectory_msgs_generate_messages_eus: plugins/gazebo_plugins/pedestrian_sfm_plu
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_eus/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
 .PHONY : trajectory_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -364,12 +364,12 @@ trajectory_msgs_generate_messages_lisp: plugins/gazebo_plugins/pedestrian_sfm_pl
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_lisp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
 .PHONY : trajectory_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -378,12 +378,12 @@ trajectory_msgs_generate_messages_nodejs: plugins/gazebo_plugins/pedestrian_sfm_
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_nodejs/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
 .PHONY : trajectory_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -392,12 +392,12 @@ trajectory_msgs_generate_messages_py: plugins/gazebo_plugins/pedestrian_sfm_plug
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_py/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
 .PHONY : trajectory_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -406,12 +406,12 @@ gazebo_sfm_plugin_generate_messages: plugins/gazebo_plugins/pedestrian_sfm_plugi
 
 # fast build rule for target.
 gazebo_sfm_plugin_generate_messages/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages.dir/build
 .PHONY : gazebo_sfm_plugin_generate_messages/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/_gazebo_sfm_plugin_generate_messages_check_deps_ped_state.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/_gazebo_sfm_plugin_generate_messages_check_deps_ped_state.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/_gazebo_sfm_plugin_generate_messages_check_deps_ped_state.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/_gazebo_sfm_plugin_generate_messages_check_deps_ped_state.dir/rule
 
 # Convenience name for target.
@@ -420,12 +420,12 @@ _gazebo_sfm_plugin_generate_messages_check_deps_ped_state: plugins/gazebo_plugin
 
 # fast build rule for target.
 _gazebo_sfm_plugin_generate_messages_check_deps_ped_state/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/_gazebo_sfm_plugin_generate_messages_check_deps_ped_state.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/_gazebo_sfm_plugin_generate_messages_check_deps_ped_state.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/_gazebo_sfm_plugin_generate_messages_check_deps_ped_state.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/_gazebo_sfm_plugin_generate_messages_check_deps_ped_state.dir/build
 .PHONY : _gazebo_sfm_plugin_generate_messages_check_deps_ped_state/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_cpp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_cpp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_cpp.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -434,12 +434,12 @@ gazebo_sfm_plugin_generate_messages_cpp: plugins/gazebo_plugins/pedestrian_sfm_p
 
 # fast build rule for target.
 gazebo_sfm_plugin_generate_messages_cpp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_cpp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_cpp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_cpp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_cpp.dir/build
 .PHONY : gazebo_sfm_plugin_generate_messages_cpp/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_gencpp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_gencpp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_gencpp.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_gencpp.dir/rule
 
 # Convenience name for target.
@@ -448,12 +448,12 @@ gazebo_sfm_plugin_gencpp: plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFile
 
 # fast build rule for target.
 gazebo_sfm_plugin_gencpp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_gencpp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_gencpp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_gencpp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_gencpp.dir/build
 .PHONY : gazebo_sfm_plugin_gencpp/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_eus.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_eus.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_eus.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -462,12 +462,12 @@ gazebo_sfm_plugin_generate_messages_eus: plugins/gazebo_plugins/pedestrian_sfm_p
 
 # fast build rule for target.
 gazebo_sfm_plugin_generate_messages_eus/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_eus.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_eus.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_eus.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_eus.dir/build
 .PHONY : gazebo_sfm_plugin_generate_messages_eus/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_geneus.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_geneus.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_geneus.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_geneus.dir/rule
 
 # Convenience name for target.
@@ -476,12 +476,12 @@ gazebo_sfm_plugin_geneus: plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFile
 
 # fast build rule for target.
 gazebo_sfm_plugin_geneus/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_geneus.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_geneus.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_geneus.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_geneus.dir/build
 .PHONY : gazebo_sfm_plugin_geneus/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_lisp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_lisp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_lisp.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -490,12 +490,12 @@ gazebo_sfm_plugin_generate_messages_lisp: plugins/gazebo_plugins/pedestrian_sfm_
 
 # fast build rule for target.
 gazebo_sfm_plugin_generate_messages_lisp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_lisp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_lisp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_lisp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_lisp.dir/build
 .PHONY : gazebo_sfm_plugin_generate_messages_lisp/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genlisp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genlisp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genlisp.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genlisp.dir/rule
 
 # Convenience name for target.
@@ -504,12 +504,12 @@ gazebo_sfm_plugin_genlisp: plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFil
 
 # fast build rule for target.
 gazebo_sfm_plugin_genlisp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genlisp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genlisp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genlisp.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genlisp.dir/build
 .PHONY : gazebo_sfm_plugin_genlisp/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_nodejs.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_nodejs.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_nodejs.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -518,12 +518,12 @@ gazebo_sfm_plugin_generate_messages_nodejs: plugins/gazebo_plugins/pedestrian_sf
 
 # fast build rule for target.
 gazebo_sfm_plugin_generate_messages_nodejs/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_nodejs.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_nodejs.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_nodejs.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_nodejs.dir/build
 .PHONY : gazebo_sfm_plugin_generate_messages_nodejs/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_gennodejs.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_gennodejs.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_gennodejs.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -532,12 +532,12 @@ gazebo_sfm_plugin_gennodejs: plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeF
 
 # fast build rule for target.
 gazebo_sfm_plugin_gennodejs/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_gennodejs.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_gennodejs.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_gennodejs.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_gennodejs.dir/build
 .PHONY : gazebo_sfm_plugin_gennodejs/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_py.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_py.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_py.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -546,12 +546,12 @@ gazebo_sfm_plugin_generate_messages_py: plugins/gazebo_plugins/pedestrian_sfm_pl
 
 # fast build rule for target.
 gazebo_sfm_plugin_generate_messages_py/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_py.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_py.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_py.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_generate_messages_py.dir/build
 .PHONY : gazebo_sfm_plugin_generate_messages_py/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genpy.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genpy.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genpy.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genpy.dir/rule
 
 # Convenience name for target.
@@ -560,12 +560,12 @@ gazebo_sfm_plugin_genpy: plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles
 
 # fast build rule for target.
 gazebo_sfm_plugin_genpy/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genpy.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genpy.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genpy.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/gazebo_sfm_plugin_genpy.dir/build
 .PHONY : gazebo_sfm_plugin_genpy/fast
 
 # Convenience name for target.
 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/rule
 .PHONY : plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/rule
 
 # Convenience name for target.
@@ -574,7 +574,7 @@ PedestrianSFMPlugin: plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/Ped
 
 # fast build rule for target.
 PedestrianSFMPlugin/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/build
 .PHONY : PedestrianSFMPlugin/fast
 
 src/pedestrian_sfm_plugin.o: src/pedestrian_sfm_plugin.cpp.o
@@ -582,7 +582,7 @@ src/pedestrian_sfm_plugin.o: src/pedestrian_sfm_plugin.cpp.o
 
 # target to build an object file
 src/pedestrian_sfm_plugin.cpp.o:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/src/pedestrian_sfm_plugin.cpp.o
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/src/pedestrian_sfm_plugin.cpp.o
 .PHONY : src/pedestrian_sfm_plugin.cpp.o
 
 src/pedestrian_sfm_plugin.i: src/pedestrian_sfm_plugin.cpp.i
@@ -590,7 +590,7 @@ src/pedestrian_sfm_plugin.i: src/pedestrian_sfm_plugin.cpp.i
 
 # target to preprocess a source file
 src/pedestrian_sfm_plugin.cpp.i:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/src/pedestrian_sfm_plugin.cpp.i
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/src/pedestrian_sfm_plugin.cpp.i
 .PHONY : src/pedestrian_sfm_plugin.cpp.i
 
 src/pedestrian_sfm_plugin.s: src/pedestrian_sfm_plugin.cpp.s
@@ -598,7 +598,7 @@ src/pedestrian_sfm_plugin.s: src/pedestrian_sfm_plugin.cpp.s
 
 # target to generate assembly for a file
 src/pedestrian_sfm_plugin.cpp.s:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/src/pedestrian_sfm_plugin.cpp.s
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/build.make plugins/gazebo_plugins/pedestrian_sfm_plugin/CMakeFiles/PedestrianSFMPlugin.dir/src/pedestrian_sfm_plugin.cpp.s
 .PHONY : src/pedestrian_sfm_plugin.cpp.s
 
 # Help Target
@@ -657,6 +657,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

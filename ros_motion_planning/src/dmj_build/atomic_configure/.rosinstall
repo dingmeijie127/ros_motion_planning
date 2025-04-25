@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/dmj/study/ros_motion_planning/src/dmj_build/devel/setup.sh
+    local-name: /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/setup.sh

@@ -1,4 +1,4 @@
-# Install script for directory: /home/dmj/study/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin
+# Install script for directory: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,18 +43,18 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/catkin_generated/installspace/gazebo_ped_visualizer_plugin.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/catkin_generated/installspace/gazebo_ped_visualizer_plugin.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_ped_visualizer_plugin/cmake" TYPE FILE FILES
-    "/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/catkin_generated/installspace/gazebo_ped_visualizer_pluginConfig.cmake"
-    "/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/catkin_generated/installspace/gazebo_ped_visualizer_pluginConfig-version.cmake"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/catkin_generated/installspace/gazebo_ped_visualizer_pluginConfig.cmake"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/catkin_generated/installspace/gazebo_ped_visualizer_pluginConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_ped_visualizer_plugin" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_ped_visualizer_plugin" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -64,12 +64,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPedestrianVisualPlugin.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/devel/lib/libPedestrianVisualPlugin.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/libPedestrianVisualPlugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPedestrianVisualPlugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPedestrianVisualPlugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPedestrianVisualPlugin.so"
-         OLD_RPATH "/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/dmj/study/ros_motion_planning/src/dmj_build/devel/lib:"
+         OLD_RPATH "/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPedestrianVisualPlugin.so")
@@ -81,6 +81,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
+  include("/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
 endif()
 

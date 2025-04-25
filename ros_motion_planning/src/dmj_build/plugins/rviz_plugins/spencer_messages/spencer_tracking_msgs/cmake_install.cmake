@@ -1,4 +1,4 @@
-# Install script for directory: /home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs
+# Install script for directory: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,70 +44,70 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_tracking_msgs/msg" TYPE FILE FILES
-    "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg"
-    "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPersons.msg"
-    "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/CompositeDetectedPerson.msg"
-    "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/CompositeDetectedPersons.msg"
-    "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPerson.msg"
-    "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPersons.msg"
-    "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPerson2d.msg"
-    "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPersons2d.msg"
-    "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedGroup.msg"
-    "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedGroups.msg"
-    "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/ImmDebugInfo.msg"
-    "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/ImmDebugInfos.msg"
-    "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackingTimingMetrics.msg"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPersons.msg"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/CompositeDetectedPerson.msg"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/CompositeDetectedPersons.msg"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPerson.msg"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPersons.msg"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPerson2d.msg"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPersons2d.msg"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedGroup.msg"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedGroups.msg"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/ImmDebugInfo.msg"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/ImmDebugInfos.msg"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackingTimingMetrics.msg"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_tracking_msgs/srv" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/srv/GetPersonTrajectories.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_tracking_msgs/srv" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/srv/GetPersonTrajectories.srv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_tracking_msgs/cmake" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/catkin_generated/installspace/spencer_tracking_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_tracking_msgs/cmake" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/catkin_generated/installspace/spencer_tracking_msgs-msg-paths.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/devel/include/spencer_tracking_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/include/spencer_tracking_msgs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/devel/share/roseus/ros/spencer_tracking_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/roseus/ros/spencer_tracking_msgs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/devel/share/common-lisp/ros/spencer_tracking_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/common-lisp/ros/spencer_tracking_msgs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/spencer_tracking_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/spencer_tracking_msgs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/dmj/study/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/spencer_tracking_msgs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/catkin_generated/installspace/spencer_tracking_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/catkin_generated/installspace/spencer_tracking_msgs.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_tracking_msgs/cmake" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/catkin_generated/installspace/spencer_tracking_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_tracking_msgs/cmake" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/catkin_generated/installspace/spencer_tracking_msgs-msg-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_tracking_msgs/cmake" TYPE FILE FILES
-    "/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/catkin_generated/installspace/spencer_tracking_msgsConfig.cmake"
-    "/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/catkin_generated/installspace/spencer_tracking_msgsConfig-version.cmake"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/catkin_generated/installspace/spencer_tracking_msgsConfig.cmake"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/catkin_generated/installspace/spencer_tracking_msgsConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_tracking_msgs" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_tracking_msgs" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/package.xml")
 endif()
 

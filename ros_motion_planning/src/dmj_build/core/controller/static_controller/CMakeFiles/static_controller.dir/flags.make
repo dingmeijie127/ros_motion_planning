@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"static_controller\" -Dstatic_controller_EXPORTS
 
-CXX_INCLUDES = -I/home/dmj/study/ros_motion_planning/src/core/controller/static_controller/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3
+CXX_INCLUDES = -I/home/dmj/study/dmj_learn/ros_motion_planning/src/core/controller/static_controller/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3
 
 CXX_FLAGS = -g -fPIC -fdiagnostics-color=always
 

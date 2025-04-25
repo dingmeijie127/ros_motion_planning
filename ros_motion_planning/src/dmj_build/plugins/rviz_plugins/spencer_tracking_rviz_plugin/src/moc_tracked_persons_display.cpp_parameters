@@ -1,4 +1,4 @@
--I/home/dmj/study/ros_motion_planning/src/dmj_build/devel/include
+-I/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/include
 -I/opt/ros/noetic/include
 -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
 -I/usr/include/eigen3
@@ -10,5 +10,5 @@
 -DROS_PACKAGE_NAME="spencer_tracking_rviz_plugin"
 -DROSCONSOLE_BACKEND_LOG4CXX
 -o
-/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_tracking_rviz_plugin/src/moc_tracked_persons_display.cpp
-/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_tracking_rviz_plugin/src/tracked_persons_display.h
+/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_tracking_rviz_plugin/src/moc_tracked_persons_display.cpp
+/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_tracking_rviz_plugin/src/tracked_persons_display.h

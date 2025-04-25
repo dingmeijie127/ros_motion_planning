@@ -53,10 +53,10 @@ RM = /home/dmj/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dmj/study/ros_motion_planning/src
+CMAKE_SOURCE_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dmj/study/ros_motion_planning/src/dmj_build
+CMAKE_BINARY_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build
 
 # Include any dependencies generated for this target.
 include plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/depend.make
@@ -70,18 +70,18 @@ include plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualize
 include plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/flags.make
 
 plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.o: plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/flags.make
-plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.o: /home/dmj/study/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/src/pedestrian_visual_plugin.cpp
+plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.o: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/src/pedestrian_visual_plugin.cpp
 plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.o: plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dmj/study/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.o"
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.o -MF CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.o.d -o CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.o -c /home/dmj/study/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/src/pedestrian_visual_plugin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.o"
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.o -MF CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.o.d -o CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.o -c /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/src/pedestrian_visual_plugin.cpp
 
 plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.i"
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dmj/study/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/src/pedestrian_visual_plugin.cpp > CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.i
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/src/pedestrian_visual_plugin.cpp > CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.i
 
 plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.s"
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dmj/study/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/src/pedestrian_visual_plugin.cpp -o CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.s
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/src/pedestrian_visual_plugin.cpp -o CMakeFiles/PedestrianVisualPlugin.dir/src/pedestrian_visual_plugin.cpp.s
 
 # Object files for target PedestrianVisualPlugin
 PedestrianVisualPlugin_OBJECTS = \
@@ -201,18 +201,18 @@ devel/lib/libPedestrianVisualPlugin.so: /usr/lib/x86_64-linux-gnu/libignition-co
 devel/lib/libPedestrianVisualPlugin.so: /usr/lib/x86_64-linux-gnu/libuuid.so
 devel/lib/libPedestrianVisualPlugin.so: /usr/lib/x86_64-linux-gnu/libuuid.so
 devel/lib/libPedestrianVisualPlugin.so: plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dmj/study/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../../../devel/lib/libPedestrianVisualPlugin.so"
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PedestrianVisualPlugin.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../../../devel/lib/libPedestrianVisualPlugin.so"
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PedestrianVisualPlugin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/build: devel/lib/libPedestrianVisualPlugin.so
 .PHONY : plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/build
 
 plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/clean:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin && $(CMAKE_COMMAND) -P CMakeFiles/PedestrianVisualPlugin.dir/cmake_clean.cmake
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin && $(CMAKE_COMMAND) -P CMakeFiles/PedestrianVisualPlugin.dir/cmake_clean.cmake
 .PHONY : plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/clean
 
 plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/depend:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmj/study/ros_motion_planning/src /home/dmj/study/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin /home/dmj/study/ros_motion_planning/src/dmj_build /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmj/study/dmj_learn/ros_motion_planning/src /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/CMakeFiles/PedestrianVisualPlugin.dir/depend
 

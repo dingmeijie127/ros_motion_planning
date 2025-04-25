@@ -1,4 +1,4 @@
-# Install script for directory: /home/dmj/study/ros_motion_planning/src/plugins/dynamic_xml_config
+# Install script for directory: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/dynamic_xml_config
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

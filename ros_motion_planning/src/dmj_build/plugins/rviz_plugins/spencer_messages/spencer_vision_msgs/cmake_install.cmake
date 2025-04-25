@@ -1,4 +1,4 @@
-# Install script for directory: /home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs
+# Install script for directory: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,57 +44,57 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_vision_msgs/msg" TYPE FILE FILES
-    "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg"
-    "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImages.msg"
-    "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg"
-    "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImage.msg"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonImages.msg"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROI.msg"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_vision_msgs/cmake" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_vision_msgs/cmake" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgs-msg-paths.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/devel/include/spencer_vision_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/include/spencer_vision_msgs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/devel/share/roseus/ros/spencer_vision_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/roseus/ros/spencer_vision_msgs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/devel/share/common-lisp/ros/spencer_vision_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/common-lisp/ros/spencer_vision_msgs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/spencer_vision_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/spencer_vision_msgs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/dmj/study/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/spencer_vision_msgs")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/spencer_vision_msgs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/spencer_vision_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/spencer_vision_msgs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgs.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_vision_msgs/cmake" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_vision_msgs/cmake" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgs-msg-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_vision_msgs/cmake" TYPE FILE FILES
-    "/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgsConfig.cmake"
-    "/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgsConfig-version.cmake"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgsConfig.cmake"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/catkin_generated/installspace/spencer_vision_msgsConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_vision_msgs" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spencer_vision_msgs" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/package.xml")
 endif()
 

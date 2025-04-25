@@ -3,7 +3,7 @@
 # generated from catkin/cmake/template/script.py.in
 # creates a relay to a python script source file, acting as that file.
 # The purpose is that of a symlink
-python_script = '/home/dmj/study/ros_motion_planning/src/plugins/dynamic_rviz_config/scripts/rviz_generate.py'
+python_script = '/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/dynamic_rviz_config/scripts/rviz_generate.py'
 with open(python_script, 'r') as fh:
     context = {
         '__builtins__': __builtins__,

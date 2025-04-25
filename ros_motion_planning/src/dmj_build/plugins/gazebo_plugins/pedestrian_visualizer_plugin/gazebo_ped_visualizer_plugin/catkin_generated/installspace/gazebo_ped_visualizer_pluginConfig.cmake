@@ -67,8 +67,8 @@ set(gazebo_ped_visualizer_plugin_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(gazebo_ped_visualizer_plugin_SOURCE_PREFIX /home/dmj/study/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin)
-  set(gazebo_ped_visualizer_plugin_DEVEL_PREFIX /home/dmj/study/ros_motion_planning/src/dmj_build/devel)
+  set(gazebo_ped_visualizer_plugin_SOURCE_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin)
+  set(gazebo_ped_visualizer_plugin_DEVEL_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel)
   set(gazebo_ped_visualizer_plugin_INSTALL_PREFIX "")
   set(gazebo_ped_visualizer_plugin_PREFIX ${gazebo_ped_visualizer_plugin_DEVEL_PREFIX})
 else()

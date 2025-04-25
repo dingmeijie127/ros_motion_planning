@@ -53,10 +53,10 @@ RM = /home/dmj/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dmj/study/ros_motion_planning/src
+CMAKE_SOURCE_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dmj/study/ros_motion_planning/src/dmj_build
+CMAKE_BINARY_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build
 
 # Utility rule file for roscpp_generate_messages_lisp.
 
@@ -74,10 +74,10 @@ plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_gen
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_lisp.dir/depend:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmj/study/ros_motion_planning/src /home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_control_msgs /home/dmj/study/ros_motion_planning/src/dmj_build /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmj/study/dmj_learn/ros_motion_planning/src /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_control_msgs /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 

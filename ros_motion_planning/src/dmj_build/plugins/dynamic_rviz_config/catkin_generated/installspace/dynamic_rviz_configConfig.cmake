@@ -67,8 +67,8 @@ set(dynamic_rviz_config_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(dynamic_rviz_config_SOURCE_PREFIX /home/dmj/study/ros_motion_planning/src/plugins/dynamic_rviz_config)
-  set(dynamic_rviz_config_DEVEL_PREFIX /home/dmj/study/ros_motion_planning/src/dmj_build/devel)
+  set(dynamic_rviz_config_SOURCE_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/dynamic_rviz_config)
+  set(dynamic_rviz_config_DEVEL_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel)
   set(dynamic_rviz_config_INSTALL_PREFIX "")
   set(dynamic_rviz_config_PREFIX ${dynamic_rviz_config_DEVEL_PREFIX})
 else()

@@ -57,10 +57,10 @@ RM = /home/dmj/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dmj/study/ros_motion_planning/src
+CMAKE_SOURCE_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dmj/study/ros_motion_planning/src/dmj_build
+CMAKE_BINARY_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/ros_motion_planning/src/dmj_build/CMakeFiles /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs//CMakeFiles/progress.marks
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/ros_motion_planning/src/dmj_build/CMakeFiles 0
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs//CMakeFiles/progress.marks
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/clean
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/preinstall
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/preinstall
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ roscpp_generate_messages_cpp: plugins/rviz_plugins/spencer_messages/spencer_cont
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -196,12 +196,12 @@ roscpp_generate_messages_eus: plugins/rviz_plugins/spencer_messages/spencer_cont
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_eus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_eus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -210,12 +210,12 @@ roscpp_generate_messages_lisp: plugins/rviz_plugins/spencer_messages/spencer_con
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ roscpp_generate_messages_nodejs: plugins/rviz_plugins/spencer_messages/spencer_c
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -238,12 +238,12 @@ roscpp_generate_messages_py: plugins/rviz_plugins/spencer_messages/spencer_contr
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_py.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_py.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ rosgraph_msgs_generate_messages_cpp: plugins/rviz_plugins/spencer_messages/spenc
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -266,12 +266,12 @@ rosgraph_msgs_generate_messages_eus: plugins/rviz_plugins/spencer_messages/spenc
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -280,12 +280,12 @@ rosgraph_msgs_generate_messages_lisp: plugins/rviz_plugins/spencer_messages/spen
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -294,12 +294,12 @@ rosgraph_msgs_generate_messages_nodejs: plugins/rviz_plugins/spencer_messages/sp
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -308,12 +308,12 @@ rosgraph_msgs_generate_messages_py: plugins/rviz_plugins/spencer_messages/spence
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -322,12 +322,12 @@ std_msgs_generate_messages_cpp: plugins/rviz_plugins/spencer_messages/spencer_co
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -336,12 +336,12 @@ std_msgs_generate_messages_eus: plugins/rviz_plugins/spencer_messages/spencer_co
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -350,12 +350,12 @@ std_msgs_generate_messages_lisp: plugins/rviz_plugins/spencer_messages/spencer_c
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -364,12 +364,12 @@ std_msgs_generate_messages_nodejs: plugins/rviz_plugins/spencer_messages/spencer
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -378,12 +378,12 @@ std_msgs_generate_messages_py: plugins/rviz_plugins/spencer_messages/spencer_con
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -392,12 +392,12 @@ spencer_control_msgs_generate_messages: plugins/rviz_plugins/spencer_messages/sp
 
 # fast build rule for target.
 spencer_control_msgs_generate_messages/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages.dir/build
 .PHONY : spencer_control_msgs_generate_messages/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/_spencer_control_msgs_generate_messages_check_deps_ComponentStatus.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/_spencer_control_msgs_generate_messages_check_deps_ComponentStatus.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/_spencer_control_msgs_generate_messages_check_deps_ComponentStatus.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/_spencer_control_msgs_generate_messages_check_deps_ComponentStatus.dir/rule
 
 # Convenience name for target.
@@ -406,12 +406,12 @@ _spencer_control_msgs_generate_messages_check_deps_ComponentStatus: plugins/rviz
 
 # fast build rule for target.
 _spencer_control_msgs_generate_messages_check_deps_ComponentStatus/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/_spencer_control_msgs_generate_messages_check_deps_ComponentStatus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/_spencer_control_msgs_generate_messages_check_deps_ComponentStatus.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/_spencer_control_msgs_generate_messages_check_deps_ComponentStatus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/_spencer_control_msgs_generate_messages_check_deps_ComponentStatus.dir/build
 .PHONY : _spencer_control_msgs_generate_messages_check_deps_ComponentStatus/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_cpp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_cpp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_cpp.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -420,12 +420,12 @@ spencer_control_msgs_generate_messages_cpp: plugins/rviz_plugins/spencer_message
 
 # fast build rule for target.
 spencer_control_msgs_generate_messages_cpp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_cpp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_cpp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_cpp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_cpp.dir/build
 .PHONY : spencer_control_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gencpp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gencpp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gencpp.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gencpp.dir/rule
 
 # Convenience name for target.
@@ -434,12 +434,12 @@ spencer_control_msgs_gencpp: plugins/rviz_plugins/spencer_messages/spencer_contr
 
 # fast build rule for target.
 spencer_control_msgs_gencpp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gencpp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gencpp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gencpp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gencpp.dir/build
 .PHONY : spencer_control_msgs_gencpp/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -448,12 +448,12 @@ spencer_control_msgs_generate_messages_eus: plugins/rviz_plugins/spencer_message
 
 # fast build rule for target.
 spencer_control_msgs_generate_messages_eus/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/build
 .PHONY : spencer_control_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_geneus.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_geneus.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_geneus.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_geneus.dir/rule
 
 # Convenience name for target.
@@ -462,12 +462,12 @@ spencer_control_msgs_geneus: plugins/rviz_plugins/spencer_messages/spencer_contr
 
 # fast build rule for target.
 spencer_control_msgs_geneus/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_geneus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_geneus.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_geneus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_geneus.dir/build
 .PHONY : spencer_control_msgs_geneus/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_lisp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_lisp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_lisp.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -476,12 +476,12 @@ spencer_control_msgs_generate_messages_lisp: plugins/rviz_plugins/spencer_messag
 
 # fast build rule for target.
 spencer_control_msgs_generate_messages_lisp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_lisp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_lisp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_lisp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_lisp.dir/build
 .PHONY : spencer_control_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genlisp.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genlisp.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genlisp.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genlisp.dir/rule
 
 # Convenience name for target.
@@ -490,12 +490,12 @@ spencer_control_msgs_genlisp: plugins/rviz_plugins/spencer_messages/spencer_cont
 
 # fast build rule for target.
 spencer_control_msgs_genlisp/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genlisp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genlisp.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genlisp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genlisp.dir/build
 .PHONY : spencer_control_msgs_genlisp/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -504,12 +504,12 @@ spencer_control_msgs_generate_messages_nodejs: plugins/rviz_plugins/spencer_mess
 
 # fast build rule for target.
 spencer_control_msgs_generate_messages_nodejs/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/build
 .PHONY : spencer_control_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gennodejs.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gennodejs.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gennodejs.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -518,12 +518,12 @@ spencer_control_msgs_gennodejs: plugins/rviz_plugins/spencer_messages/spencer_co
 
 # fast build rule for target.
 spencer_control_msgs_gennodejs/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gennodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gennodejs.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gennodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gennodejs.dir/build
 .PHONY : spencer_control_msgs_gennodejs/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_py.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_py.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_py.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -532,12 +532,12 @@ spencer_control_msgs_generate_messages_py: plugins/rviz_plugins/spencer_messages
 
 # fast build rule for target.
 spencer_control_msgs_generate_messages_py/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_py.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_py.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_py.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_py.dir/build
 .PHONY : spencer_control_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genpy.dir/rule:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genpy.dir/rule
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genpy.dir/rule
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genpy.dir/rule
 
 # Convenience name for target.
@@ -546,7 +546,7 @@ spencer_control_msgs_genpy: plugins/rviz_plugins/spencer_messages/spencer_contro
 
 # fast build rule for target.
 spencer_control_msgs_genpy/fast:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genpy.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genpy.dir/build
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genpy.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genpy.dir/build
 .PHONY : spencer_control_msgs_genpy/fast
 
 # Help Target
@@ -600,6 +600,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

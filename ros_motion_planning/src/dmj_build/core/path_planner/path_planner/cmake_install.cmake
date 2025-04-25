@@ -1,4 +1,4 @@
-# Install script for directory: /home/dmj/study/ros_motion_planning/src/core/path_planner/path_planner
+# Install script for directory: /home/dmj/study/dmj_learn/ros_motion_planning/src/core/path_planner/path_planner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,17 +43,17 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/core/path_planner/path_planner/catkin_generated/installspace/path_planner.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/core/path_planner/path_planner/catkin_generated/installspace/path_planner.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/path_planner/cmake" TYPE FILE FILES
-    "/home/dmj/study/ros_motion_planning/src/dmj_build/core/path_planner/path_planner/catkin_generated/installspace/path_plannerConfig.cmake"
-    "/home/dmj/study/ros_motion_planning/src/dmj_build/core/path_planner/path_planner/catkin_generated/installspace/path_plannerConfig-version.cmake"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/core/path_planner/path_planner/catkin_generated/installspace/path_plannerConfig.cmake"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/core/path_planner/path_planner/catkin_generated/installspace/path_plannerConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/path_planner" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/core/path_planner/path_planner/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/path_planner" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/core/path_planner/path_planner/package.xml")
 endif()
 

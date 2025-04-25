@@ -67,8 +67,8 @@ set(path_planner_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(path_planner_SOURCE_PREFIX /home/dmj/study/ros_motion_planning/src/core/path_planner/path_planner)
-  set(path_planner_DEVEL_PREFIX /home/dmj/study/ros_motion_planning/src/dmj_build/devel)
+  set(path_planner_SOURCE_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/core/path_planner/path_planner)
+  set(path_planner_DEVEL_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel)
   set(path_planner_INSTALL_PREFIX "")
   set(path_planner_PREFIX ${path_planner_DEVEL_PREFIX})
 else()

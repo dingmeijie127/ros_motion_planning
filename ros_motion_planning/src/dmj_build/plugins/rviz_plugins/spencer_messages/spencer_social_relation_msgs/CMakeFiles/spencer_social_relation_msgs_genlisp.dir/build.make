@@ -53,10 +53,10 @@ RM = /home/dmj/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dmj/study/ros_motion_planning/src
+CMAKE_SOURCE_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dmj/study/ros_motion_planning/src/dmj_build
+CMAKE_BINARY_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build
 
 # Utility rule file for spencer_social_relation_msgs_genlisp.
 
@@ -74,10 +74,10 @@ plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/sp
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_genlisp.dir/build
 
 plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_genlisp.dir/clean:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs && $(CMAKE_COMMAND) -P CMakeFiles/spencer_social_relation_msgs_genlisp.dir/cmake_clean.cmake
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs && $(CMAKE_COMMAND) -P CMakeFiles/spencer_social_relation_msgs_genlisp.dir/cmake_clean.cmake
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_genlisp.dir/clean
 
 plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_genlisp.dir/depend:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmj/study/ros_motion_planning/src /home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs /home/dmj/study/ros_motion_planning/src/dmj_build /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_genlisp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmj/study/dmj_learn/ros_motion_planning/src /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_genlisp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_genlisp.dir/depend
 

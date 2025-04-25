@@ -1,4 +1,4 @@
-# Install script for directory: /home/dmj/study/ros_motion_planning/src/core/controller/dwa_controller
+# Install script for directory: /home/dmj/study/dmj_learn/ros_motion_planning/src/core/controller/dwa_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,33 +43,33 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/dwa_controller" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/devel/include/dwa_controller/DWAControllerConfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/dwa_controller" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/include/dwa_controller/DWAControllerConfig.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/dwa_controller" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/dwa_controller/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/dwa_controller" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/dwa_controller/__init__.py")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/dmj/study/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/dwa_controller/cfg")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/dwa_controller/cfg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/dwa_controller" TYPE DIRECTORY FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/dwa_controller/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/dwa_controller" TYPE DIRECTORY FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/dwa_controller/cfg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/core/controller/dwa_controller/catkin_generated/installspace/dwa_controller.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/core/controller/dwa_controller/catkin_generated/installspace/dwa_controller.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwa_controller/cmake" TYPE FILE FILES
-    "/home/dmj/study/ros_motion_planning/src/dmj_build/core/controller/dwa_controller/catkin_generated/installspace/dwa_controllerConfig.cmake"
-    "/home/dmj/study/ros_motion_planning/src/dmj_build/core/controller/dwa_controller/catkin_generated/installspace/dwa_controllerConfig-version.cmake"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/core/controller/dwa_controller/catkin_generated/installspace/dwa_controllerConfig.cmake"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/core/controller/dwa_controller/catkin_generated/installspace/dwa_controllerConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwa_controller" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/core/controller/dwa_controller/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwa_controller" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/core/controller/dwa_controller/package.xml")
 endif()
 

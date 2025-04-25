@@ -53,10 +53,10 @@ RM = /home/dmj/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dmj/study/ros_motion_planning/src
+CMAKE_SOURCE_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dmj/study/ros_motion_planning/src/dmj_build
+CMAKE_BINARY_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build
 
 # Utility rule file for spencer_control_msgs_generate_messages_eus.
 
@@ -70,13 +70,13 @@ plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_co
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus: devel/share/roseus/ros/spencer_control_msgs/manifest.l
 
 devel/share/roseus/ros/spencer_control_msgs/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp manifest code for spencer_control_msgs"
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/dmj/study/ros_motion_planning/src/dmj_build/devel/share/roseus/ros/spencer_control_msgs spencer_control_msgs std_msgs
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp manifest code for spencer_control_msgs"
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/roseus/ros/spencer_control_msgs spencer_control_msgs std_msgs
 
 devel/share/roseus/ros/spencer_control_msgs/msg/ComponentStatus.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-devel/share/roseus/ros/spencer_control_msgs/msg/ComponentStatus.l: /home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/msg/ComponentStatus.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from spencer_control_msgs/ComponentStatus.msg"
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/msg/ComponentStatus.msg -Ispencer_control_msgs:/home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_control_msgs -o /home/dmj/study/ros_motion_planning/src/dmj_build/devel/share/roseus/ros/spencer_control_msgs/msg
+devel/share/roseus/ros/spencer_control_msgs/msg/ComponentStatus.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/msg/ComponentStatus.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from spencer_control_msgs/ComponentStatus.msg"
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/msg/ComponentStatus.msg -Ispencer_control_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_control_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/roseus/ros/spencer_control_msgs/msg
 
 spencer_control_msgs_generate_messages_eus: devel/share/roseus/ros/spencer_control_msgs/manifest.l
 spencer_control_msgs_generate_messages_eus: devel/share/roseus/ros/spencer_control_msgs/msg/ComponentStatus.l
@@ -89,10 +89,10 @@ plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_co
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/build
 
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/clean:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs && $(CMAKE_COMMAND) -P CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs && $(CMAKE_COMMAND) -P CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/clean
 
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/depend:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmj/study/ros_motion_planning/src /home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_control_msgs /home/dmj/study/ros_motion_planning/src/dmj_build /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmj/study/dmj_learn/ros_motion_planning/src /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_control_msgs /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/depend
 

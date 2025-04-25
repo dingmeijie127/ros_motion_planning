@@ -67,8 +67,8 @@ set(sim_env_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(sim_env_SOURCE_PREFIX /home/dmj/study/ros_motion_planning/src/sim_env)
-  set(sim_env_DEVEL_PREFIX /home/dmj/study/ros_motion_planning/src/dmj_build/devel)
+  set(sim_env_SOURCE_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/sim_env)
+  set(sim_env_DEVEL_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel)
   set(sim_env_INSTALL_PREFIX "")
   set(sim_env_PREFIX ${sim_env_DEVEL_PREFIX})
 else()

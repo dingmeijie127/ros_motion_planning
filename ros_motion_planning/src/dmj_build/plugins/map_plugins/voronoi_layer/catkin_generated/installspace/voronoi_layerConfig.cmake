@@ -67,8 +67,8 @@ set(voronoi_layer_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(voronoi_layer_SOURCE_PREFIX /home/dmj/study/ros_motion_planning/src/plugins/map_plugins/voronoi_layer)
-  set(voronoi_layer_DEVEL_PREFIX /home/dmj/study/ros_motion_planning/src/dmj_build/devel)
+  set(voronoi_layer_SOURCE_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/map_plugins/voronoi_layer)
+  set(voronoi_layer_DEVEL_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel)
   set(voronoi_layer_INSTALL_PREFIX "")
   set(voronoi_layer_PREFIX ${voronoi_layer_DEVEL_PREFIX})
 else()

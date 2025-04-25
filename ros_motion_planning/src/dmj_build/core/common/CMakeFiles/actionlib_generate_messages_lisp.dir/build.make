@@ -53,10 +53,10 @@ RM = /home/dmj/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dmj/study/ros_motion_planning/src
+CMAKE_SOURCE_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dmj/study/ros_motion_planning/src/dmj_build
+CMAKE_BINARY_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build
 
 # Utility rule file for actionlib_generate_messages_lisp.
 
@@ -74,10 +74,10 @@ core/common/CMakeFiles/actionlib_generate_messages_lisp.dir/build: actionlib_gen
 .PHONY : core/common/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 
 core/common/CMakeFiles/actionlib_generate_messages_lisp.dir/clean:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build/core/common && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/core/common && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : core/common/CMakeFiles/actionlib_generate_messages_lisp.dir/clean
 
 core/common/CMakeFiles/actionlib_generate_messages_lisp.dir/depend:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmj/study/ros_motion_planning/src /home/dmj/study/ros_motion_planning/src/core/common /home/dmj/study/ros_motion_planning/src/dmj_build /home/dmj/study/ros_motion_planning/src/dmj_build/core/common /home/dmj/study/ros_motion_planning/src/dmj_build/core/common/CMakeFiles/actionlib_generate_messages_lisp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmj/study/dmj_learn/ros_motion_planning/src /home/dmj/study/dmj_learn/ros_motion_planning/src/core/common /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/core/common /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/core/common/CMakeFiles/actionlib_generate_messages_lisp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : core/common/CMakeFiles/actionlib_generate_messages_lisp.dir/depend
 

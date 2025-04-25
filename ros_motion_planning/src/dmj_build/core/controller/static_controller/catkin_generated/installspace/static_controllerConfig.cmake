@@ -67,8 +67,8 @@ set(static_controller_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(static_controller_SOURCE_PREFIX /home/dmj/study/ros_motion_planning/src/core/controller/static_controller)
-  set(static_controller_DEVEL_PREFIX /home/dmj/study/ros_motion_planning/src/dmj_build/devel)
+  set(static_controller_SOURCE_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/core/controller/static_controller)
+  set(static_controller_DEVEL_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel)
   set(static_controller_INSTALL_PREFIX "")
   set(static_controller_PREFIX ${static_controller_DEVEL_PREFIX})
 else()

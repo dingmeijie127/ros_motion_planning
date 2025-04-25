@@ -67,8 +67,8 @@ set(spencer_vision_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(spencer_vision_msgs_SOURCE_PREFIX /home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs)
-  set(spencer_vision_msgs_DEVEL_PREFIX /home/dmj/study/ros_motion_planning/src/dmj_build/devel)
+  set(spencer_vision_msgs_SOURCE_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs)
+  set(spencer_vision_msgs_DEVEL_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel)
   set(spencer_vision_msgs_INSTALL_PREFIX "")
   set(spencer_vision_msgs_PREFIX ${spencer_vision_msgs_DEVEL_PREFIX})
 else()

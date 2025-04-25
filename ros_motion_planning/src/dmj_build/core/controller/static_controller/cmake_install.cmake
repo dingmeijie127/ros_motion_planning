@@ -1,4 +1,4 @@
-# Install script for directory: /home/dmj/study/ros_motion_planning/src/core/controller/static_controller
+# Install script for directory: /home/dmj/study/dmj_learn/ros_motion_planning/src/core/controller/static_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,17 +43,17 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/core/controller/static_controller/catkin_generated/installspace/static_controller.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/core/controller/static_controller/catkin_generated/installspace/static_controller.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/static_controller/cmake" TYPE FILE FILES
-    "/home/dmj/study/ros_motion_planning/src/dmj_build/core/controller/static_controller/catkin_generated/installspace/static_controllerConfig.cmake"
-    "/home/dmj/study/ros_motion_planning/src/dmj_build/core/controller/static_controller/catkin_generated/installspace/static_controllerConfig-version.cmake"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/core/controller/static_controller/catkin_generated/installspace/static_controllerConfig.cmake"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/core/controller/static_controller/catkin_generated/installspace/static_controllerConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/static_controller" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/core/controller/static_controller/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/static_controller" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/core/controller/static_controller/package.xml")
 endif()
 

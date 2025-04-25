@@ -1,4 +1,4 @@
-# Install script for directory: /home/dmj/study/ros_motion_planning/src/plugins/dynamic_rviz_config
+# Install script for directory: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/dynamic_rviz_config
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,21 +43,21 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/dynamic_rviz_config/catkin_generated/installspace/dynamic_rviz_config.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/dynamic_rviz_config/catkin_generated/installspace/dynamic_rviz_config.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamic_rviz_config/cmake" TYPE FILE FILES
-    "/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/dynamic_rviz_config/catkin_generated/installspace/dynamic_rviz_configConfig.cmake"
-    "/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/dynamic_rviz_config/catkin_generated/installspace/dynamic_rviz_configConfig-version.cmake"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/dynamic_rviz_config/catkin_generated/installspace/dynamic_rviz_configConfig.cmake"
+    "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/dynamic_rviz_config/catkin_generated/installspace/dynamic_rviz_configConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamic_rviz_config" TYPE FILE FILES "/home/dmj/study/ros_motion_planning/src/plugins/dynamic_rviz_config/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamic_rviz_config" TYPE FILE FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/dynamic_rviz_config/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dynamic_rviz_config" TYPE PROGRAM FILES "/home/dmj/study/ros_motion_planning/src/dmj_build/plugins/dynamic_rviz_config/catkin_generated/installspace/rviz_generate.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dynamic_rviz_config" TYPE PROGRAM FILES "/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/dynamic_rviz_config/catkin_generated/installspace/rviz_generate.py")
 endif()
 

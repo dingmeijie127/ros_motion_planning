@@ -67,8 +67,8 @@ set(gazebo_sfm_plugin_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(gazebo_sfm_plugin_SOURCE_PREFIX /home/dmj/study/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_sfm_plugin)
-  set(gazebo_sfm_plugin_DEVEL_PREFIX /home/dmj/study/ros_motion_planning/src/dmj_build/devel)
+  set(gazebo_sfm_plugin_SOURCE_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_sfm_plugin)
+  set(gazebo_sfm_plugin_DEVEL_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel)
   set(gazebo_sfm_plugin_INSTALL_PREFIX "")
   set(gazebo_sfm_plugin_PREFIX ${gazebo_sfm_plugin_DEVEL_PREFIX})
 else()

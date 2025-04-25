@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: static_controller
-Description: Description of static_controller
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: 

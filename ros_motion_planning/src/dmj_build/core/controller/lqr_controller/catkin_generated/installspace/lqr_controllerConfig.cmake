@@ -67,8 +67,8 @@ set(lqr_controller_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(lqr_controller_SOURCE_PREFIX /home/dmj/study/ros_motion_planning/src/core/controller/lqr_controller)
-  set(lqr_controller_DEVEL_PREFIX /home/dmj/study/ros_motion_planning/src/dmj_build/devel)
+  set(lqr_controller_SOURCE_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/core/controller/lqr_controller)
+  set(lqr_controller_DEVEL_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel)
   set(lqr_controller_INSTALL_PREFIX "")
   set(lqr_controller_PREFIX ${lqr_controller_DEVEL_PREFIX})
 else()

@@ -53,10 +53,10 @@ RM = /home/dmj/.cache/JetBrains/RemoteDev/dist/3d8b36b2566c3_CLion-241.14494.229
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dmj/study/ros_motion_planning/src
+CMAKE_SOURCE_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dmj/study/ros_motion_planning/src/dmj_build
+CMAKE_BINARY_DIR = /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build
 
 # Utility rule file for _spencer_vision_msgs_generate_messages_check_deps_PersonROIs.
 
@@ -67,7 +67,7 @@ include plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/_sp
 include plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/_spencer_vision_msgs_generate_messages_check_deps_PersonROIs.dir/progress.make
 
 plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/_spencer_vision_msgs_generate_messages_check_deps_PersonROIs:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py spencer_vision_msgs /home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg spencer_vision_msgs/PersonROI:std_msgs/Header:sensor_msgs/RegionOfInterest
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py spencer_vision_msgs /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/msg/PersonROIs.msg spencer_vision_msgs/PersonROI:std_msgs/Header:sensor_msgs/RegionOfInterest
 
 _spencer_vision_msgs_generate_messages_check_deps_PersonROIs: plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/_spencer_vision_msgs_generate_messages_check_deps_PersonROIs
 _spencer_vision_msgs_generate_messages_check_deps_PersonROIs: plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/_spencer_vision_msgs_generate_messages_check_deps_PersonROIs.dir/build.make
@@ -78,10 +78,10 @@ plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/_spencer_vi
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/_spencer_vision_msgs_generate_messages_check_deps_PersonROIs.dir/build
 
 plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/_spencer_vision_msgs_generate_messages_check_deps_PersonROIs.dir/clean:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_spencer_vision_msgs_generate_messages_check_deps_PersonROIs.dir/cmake_clean.cmake
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_spencer_vision_msgs_generate_messages_check_deps_PersonROIs.dir/cmake_clean.cmake
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/_spencer_vision_msgs_generate_messages_check_deps_PersonROIs.dir/clean
 
 plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/_spencer_vision_msgs_generate_messages_check_deps_PersonROIs.dir/depend:
-	cd /home/dmj/study/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmj/study/ros_motion_planning/src /home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs /home/dmj/study/ros_motion_planning/src/dmj_build /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs /home/dmj/study/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/_spencer_vision_msgs_generate_messages_check_deps_PersonROIs.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dmj/study/dmj_learn/ros_motion_planning/src /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/_spencer_vision_msgs_generate_messages_check_deps_PersonROIs.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_vision_msgs/CMakeFiles/_spencer_vision_msgs_generate_messages_check_deps_PersonROIs.dir/depend
 

@@ -355,6 +355,7 @@ bool PathPlannerNode::makePlan(const geometry_msgs::PoseStamped& start, const ge
   }
   // clear existing plan
   plan.clear();
+ 
 
   // judege whether goal and start node in costmap frame or not
   if (goal.header.frame_id != frame_id_)

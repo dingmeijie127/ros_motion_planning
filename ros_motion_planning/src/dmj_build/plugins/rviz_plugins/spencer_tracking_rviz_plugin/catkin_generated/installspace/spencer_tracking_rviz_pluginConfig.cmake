@@ -67,8 +67,8 @@ set(spencer_tracking_rviz_plugin_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(spencer_tracking_rviz_plugin_SOURCE_PREFIX /home/dmj/study/ros_motion_planning/src/plugins/rviz_plugins/spencer_tracking_rviz_plugin)
-  set(spencer_tracking_rviz_plugin_DEVEL_PREFIX /home/dmj/study/ros_motion_planning/src/dmj_build/devel)
+  set(spencer_tracking_rviz_plugin_SOURCE_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_tracking_rviz_plugin)
+  set(spencer_tracking_rviz_plugin_DEVEL_PREFIX /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel)
   set(spencer_tracking_rviz_plugin_INSTALL_PREFIX "")
   set(spencer_tracking_rviz_plugin_PREFIX ${spencer_tracking_rviz_plugin_DEVEL_PREFIX})
 else()

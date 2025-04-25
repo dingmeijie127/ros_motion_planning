@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dmj/study/ros_motion_planning/src/dmj_build/gtest/googletest/cmake_install.cmake")
+  include("/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/gtest/googletest/cmake_install.cmake")
 
 endif()
 
