@@ -30,6 +30,7 @@
         <!-- global planner plugin -->
         <param name="base_global_planner" value="path_planner/PathPlanner"
             if="$(eval arg('global_planner')=='a_star'
+                    or arg('global_planner')=='dmjAstar'
                     or arg('global_planner')=='jps' 
                     or arg('global_planner')=='gbfs'
                     or arg('global_planner')=='dijkstra'
@@ -53,6 +54,7 @@
                 )" />
         <param name="PathPlanner/planner_name" value="$(arg global_planner)"
             if="$(eval arg('global_planner')=='a_star'
+                    or arg('global_planner')=='dmjAstar'
                     or arg('global_planner')=='jps' 
                     or arg('global_planner')=='gbfs'
                     or arg('global_planner')=='dijkstra'

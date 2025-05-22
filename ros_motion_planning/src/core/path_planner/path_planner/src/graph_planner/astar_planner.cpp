@@ -36,6 +36,7 @@ namespace path_planner
 AStarPathPlanner::AStarPathPlanner(costmap_2d::Costmap2DROS* costmap_ros, bool dijkstra, bool gbfs)
   : PathPlanner(costmap_ros)
 {
+    ROS_INFO("-----------------------USE Astar -----------------------------");
   // can not using both dijkstra and GBFS at the same time
   if (!(dijkstra && gbfs))
   {

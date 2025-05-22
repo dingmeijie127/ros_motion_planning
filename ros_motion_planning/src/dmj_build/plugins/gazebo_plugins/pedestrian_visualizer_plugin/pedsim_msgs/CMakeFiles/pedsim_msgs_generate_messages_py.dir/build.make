@@ -93,45 +93,45 @@ devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentForce.py: /opt/ros/noetic/
 
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentGroup.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentGroup.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentGroup.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentGroup.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentGroup.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentGroup.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentGroup.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentGroup.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG pedsim_msgs/AgentGroup"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentGroup.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/pedsim_msgs/msg
 
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentGroups.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentGroups.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentGroups.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentGroups.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentGroups.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentGroups.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentGroups.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentGroup.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentGroups.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentGroups.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentGroups.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentGroups.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG pedsim_msgs/AgentGroups"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentGroups.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/pedsim_msgs/msg
 
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentState.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentState.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentState.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentState.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentState.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentState.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentState.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentState.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentState.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentState.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentForce.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentState.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentState.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentState.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentState.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG pedsim_msgs/AgentState"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentState.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/pedsim_msgs/msg
 
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentStates.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentStates.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentStates.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentStates.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentStates.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentStates.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentStates.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentStates.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentState.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentStates.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentStates.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentStates.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentForce.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentStates.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentStates.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentState.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentStates.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentStates.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_AgentStates.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG pedsim_msgs/AgentStates"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentStates.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/pedsim_msgs/msg
 
@@ -143,16 +143,16 @@ devel/lib/python3/dist-packages/pedsim_msgs/msg/_LineObstacle.py: /opt/ros/noeti
 
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_LineObstacles.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_LineObstacles.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/LineObstacles.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_LineObstacles.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/LineObstacle.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_LineObstacles.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_LineObstacles.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_LineObstacles.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/LineObstacle.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG pedsim_msgs/LineObstacles"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/LineObstacles.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/pedsim_msgs/msg
 
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_SocialActivities.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_SocialActivities.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/SocialActivities.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_SocialActivities.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/SocialActivity.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_SocialActivities.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_SocialActivities.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/SocialActivity.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG pedsim_msgs/SocialActivities"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/SocialActivities.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/pedsim_msgs/msg
 
@@ -168,54 +168,54 @@ devel/lib/python3/dist-packages/pedsim_msgs/msg/_SocialRelation.py: /home/dmj/st
 
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_SocialRelations.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_SocialRelations.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/SocialRelations.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_SocialRelations.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/SocialRelation.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_SocialRelations.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_SocialRelations.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/SocialRelation.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python from MSG pedsim_msgs/SocialRelations"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/SocialRelations.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/pedsim_msgs/msg
 
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedGroup.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedGroup.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedGroup.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedGroup.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedGroup.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedGroup.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedGroup.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedGroup.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Python from MSG pedsim_msgs/TrackedGroup"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedGroup.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/pedsim_msgs/msg
 
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedGroups.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedGroups.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedGroups.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedGroups.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedGroups.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedGroups.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedGroup.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedGroups.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedGroups.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedGroups.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedGroups.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedGroup.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedGroups.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedGroups.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Python from MSG pedsim_msgs/TrackedGroups"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedGroups.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/pedsim_msgs/msg
 
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPerson.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPerson.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedPerson.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPerson.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPerson.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPerson.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPerson.py: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPerson.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPerson.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPerson.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPerson.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPerson.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPerson.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPerson.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Python from MSG pedsim_msgs/TrackedPerson"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedPerson.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/pedsim_msgs/msg
 
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPersons.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPersons.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedPersons.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPersons.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPersons.py: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPersons.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPersons.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPersons.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPersons.py: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPersons.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedPerson.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPersons.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPersons.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPersons.py: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPersons.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPersons.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPersons.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPersons.py: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_TrackedPersons.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Python from MSG pedsim_msgs/TrackedPersons"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedPersons.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/pedsim_msgs/msg
 
@@ -227,9 +227,9 @@ devel/lib/python3/dist-packages/pedsim_msgs/msg/_Waypoint.py: /opt/ros/noetic/sh
 
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_Waypoints.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_Waypoints.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/Waypoints.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_Waypoints.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/Waypoint.msg
-devel/lib/python3/dist-packages/pedsim_msgs/msg/_Waypoints.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/lib/python3/dist-packages/pedsim_msgs/msg/_Waypoints.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_Waypoints.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+devel/lib/python3/dist-packages/pedsim_msgs/msg/_Waypoints.py: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/Waypoint.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Python from MSG pedsim_msgs/Waypoints"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/Waypoints.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/lib/python3/dist-packages/pedsim_msgs/msg
 

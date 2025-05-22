@@ -67,7 +67,7 @@ include plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFil
 include plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/_pedsim_msgs_generate_messages_check_deps_LineObstacles.dir/progress.make
 
 plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/_pedsim_msgs_generate_messages_check_deps_LineObstacles:
-	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pedsim_msgs /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/LineObstacles.msg pedsim_msgs/LineObstacle:std_msgs/Header:geometry_msgs/Point
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pedsim_msgs /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/LineObstacles.msg std_msgs/Header:geometry_msgs/Point:pedsim_msgs/LineObstacle
 
 _pedsim_msgs_generate_messages_check_deps_LineObstacles: plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/_pedsim_msgs_generate_messages_check_deps_LineObstacles
 _pedsim_msgs_generate_messages_check_deps_LineObstacles: plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/_pedsim_msgs_generate_messages_check_deps_LineObstacles.dir/build.make

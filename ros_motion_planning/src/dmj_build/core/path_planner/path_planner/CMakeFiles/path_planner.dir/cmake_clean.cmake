@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/path_planner.dir/src/evolutionary_planner/pso_planner.cpp.o.d"
   "CMakeFiles/path_planner.dir/src/graph_planner/astar_planner.cpp.o"
   "CMakeFiles/path_planner.dir/src/graph_planner/astar_planner.cpp.o.d"
+  "CMakeFiles/path_planner.dir/src/graph_planner/dmj_astar_planner.cpp.o"
+  "CMakeFiles/path_planner.dir/src/graph_planner/dmj_astar_planner.cpp.o.d"
   "CMakeFiles/path_planner.dir/src/graph_planner/dstar_lite_planner.cpp.o"
   "CMakeFiles/path_planner.dir/src/graph_planner/dstar_lite_planner.cpp.o.d"
   "CMakeFiles/path_planner.dir/src/graph_planner/dstar_planner.cpp.o"

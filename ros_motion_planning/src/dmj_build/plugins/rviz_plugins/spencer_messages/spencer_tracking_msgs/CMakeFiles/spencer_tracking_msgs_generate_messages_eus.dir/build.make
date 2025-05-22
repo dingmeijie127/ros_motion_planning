@@ -88,9 +88,9 @@ devel/share/roseus/ros/spencer_tracking_msgs/manifest.l: /opt/ros/noetic/lib/gen
 
 devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPerson.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPerson.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/CompositeDetectedPerson.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPerson.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from spencer_tracking_msgs/CompositeDetectedPerson.msg"
@@ -98,11 +98,11 @@ devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPerson.l: /opt
 
 devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/CompositeDetectedPersons.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/CompositeDetectedPerson.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/CompositeDetectedPerson.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from spencer_tracking_msgs/CompositeDetectedPersons.msg"
@@ -110,20 +110,20 @@ devel/share/roseus/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.l: /op
 
 devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPerson.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPerson.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from spencer_tracking_msgs/DetectedPerson.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/roseus/ros/spencer_tracking_msgs/msg
 
 devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPersons.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPersons.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPersons.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPersons.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPersons.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPersons.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/DetectedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from spencer_tracking_msgs/DetectedPersons.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPersons.msg -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/roseus/ros/spencer_tracking_msgs/msg
@@ -135,39 +135,39 @@ devel/share/roseus/ros/spencer_tracking_msgs/msg/ImmDebugInfo.l: /home/dmj/study
 
 devel/share/roseus/ros/spencer_tracking_msgs/msg/ImmDebugInfos.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 devel/share/roseus/ros/spencer_tracking_msgs/msg/ImmDebugInfos.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/ImmDebugInfos.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/ImmDebugInfos.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/ImmDebugInfos.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/ImmDebugInfo.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/ImmDebugInfos.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating EusLisp code from spencer_tracking_msgs/ImmDebugInfos.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/ImmDebugInfos.msg -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/roseus/ros/spencer_tracking_msgs/msg
 
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedGroup.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedGroup.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedGroup.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedGroup.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedGroup.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedGroup.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedGroup.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedGroup.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedGroup.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating EusLisp code from spencer_tracking_msgs/TrackedGroup.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedGroup.msg -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/roseus/ros/spencer_tracking_msgs/msg
 
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedGroups.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedGroups.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedGroups.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedGroups.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedGroups.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedGroups.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedGroups.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedGroups.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedGroup.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedGroups.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedGroups.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedGroups.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating EusLisp code from spencer_tracking_msgs/TrackedGroups.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedGroups.msg -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/roseus/ros/spencer_tracking_msgs/msg
 
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPerson.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPerson.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPerson.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPerson.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating EusLisp code from spencer_tracking_msgs/TrackedPerson.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPerson.msg -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/roseus/ros/spencer_tracking_msgs/msg
@@ -179,14 +179,14 @@ devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPerson2d.l: /home/dmj/st
 
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPersons.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPersons.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPersons.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPersons.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
-devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPersons.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPersons.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPerson.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackedPersons.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating EusLisp code from spencer_tracking_msgs/TrackedPersons.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPersons.msg -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/roseus/ros/spencer_tracking_msgs/msg
@@ -207,13 +207,13 @@ devel/share/roseus/ros/spencer_tracking_msgs/msg/TrackingTimingMetrics.l: /opt/r
 devel/share/roseus/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 devel/share/roseus/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/srv/GetPersonTrajectories.srv
 devel/share/roseus/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/PersonTrajectory.msg
-devel/share/roseus/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/share/roseus/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-devel/share/roseus/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/roseus/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.l: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
-devel/share/roseus/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+devel/share/roseus/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/share/roseus/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.l: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+devel/share/roseus/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 devel/share/roseus/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.l: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/PersonTrajectoryEntry.msg
+devel/share/roseus/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/share/roseus/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/roseus/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating EusLisp code from spencer_tracking_msgs/GetPersonTrajectories.srv"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/srv/GetPersonTrajectories.srv -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/roseus/ros/spencer_tracking_msgs/srv

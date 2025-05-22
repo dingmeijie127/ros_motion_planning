@@ -83,9 +83,9 @@ plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_t
 
 devel/include/spencer_tracking_msgs/CompositeDetectedPerson.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 devel/include/spencer_tracking_msgs/CompositeDetectedPerson.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/CompositeDetectedPerson.msg
+devel/include/spencer_tracking_msgs/CompositeDetectedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/include/spencer_tracking_msgs/CompositeDetectedPerson.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg
 devel/include/spencer_tracking_msgs/CompositeDetectedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/include/spencer_tracking_msgs/CompositeDetectedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/include/spencer_tracking_msgs/CompositeDetectedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/include/spencer_tracking_msgs/CompositeDetectedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/include/spencer_tracking_msgs/CompositeDetectedPerson.h: /opt/ros/noetic/share/gencpp/msg.h.template
@@ -94,11 +94,11 @@ devel/include/spencer_tracking_msgs/CompositeDetectedPerson.h: /opt/ros/noetic/s
 
 devel/include/spencer_tracking_msgs/CompositeDetectedPersons.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 devel/include/spencer_tracking_msgs/CompositeDetectedPersons.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/CompositeDetectedPersons.msg
-devel/include/spencer_tracking_msgs/CompositeDetectedPersons.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg
-devel/include/spencer_tracking_msgs/CompositeDetectedPersons.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/CompositeDetectedPerson.msg
-devel/include/spencer_tracking_msgs/CompositeDetectedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/include/spencer_tracking_msgs/CompositeDetectedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+devel/include/spencer_tracking_msgs/CompositeDetectedPersons.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/CompositeDetectedPerson.msg
+devel/include/spencer_tracking_msgs/CompositeDetectedPersons.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg
 devel/include/spencer_tracking_msgs/CompositeDetectedPersons.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/include/spencer_tracking_msgs/CompositeDetectedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/include/spencer_tracking_msgs/CompositeDetectedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/include/spencer_tracking_msgs/CompositeDetectedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/include/spencer_tracking_msgs/CompositeDetectedPersons.h: /opt/ros/noetic/share/gencpp/msg.h.template
@@ -107,21 +107,21 @@ devel/include/spencer_tracking_msgs/CompositeDetectedPersons.h: /opt/ros/noetic/
 
 devel/include/spencer_tracking_msgs/DetectedPerson.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 devel/include/spencer_tracking_msgs/DetectedPerson.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg
+devel/include/spencer_tracking_msgs/DetectedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/include/spencer_tracking_msgs/DetectedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/include/spencer_tracking_msgs/DetectedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/include/spencer_tracking_msgs/DetectedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-devel/include/spencer_tracking_msgs/DetectedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-devel/include/spencer_tracking_msgs/DetectedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/include/spencer_tracking_msgs/DetectedPerson.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from spencer_tracking_msgs/DetectedPerson.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/include/spencer_tracking_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 devel/include/spencer_tracking_msgs/DetectedPersons.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 devel/include/spencer_tracking_msgs/DetectedPersons.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPersons.msg
-devel/include/spencer_tracking_msgs/DetectedPersons.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg
-devel/include/spencer_tracking_msgs/DetectedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/include/spencer_tracking_msgs/DetectedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/include/spencer_tracking_msgs/DetectedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/include/spencer_tracking_msgs/DetectedPersons.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-devel/include/spencer_tracking_msgs/DetectedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/include/spencer_tracking_msgs/DetectedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/include/spencer_tracking_msgs/DetectedPersons.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg
 devel/include/spencer_tracking_msgs/DetectedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/include/spencer_tracking_msgs/DetectedPersons.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from spencer_tracking_msgs/DetectedPersons.msg"
@@ -130,13 +130,13 @@ devel/include/spencer_tracking_msgs/DetectedPersons.h: /opt/ros/noetic/share/gen
 devel/include/spencer_tracking_msgs/GetPersonTrajectories.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 devel/include/spencer_tracking_msgs/GetPersonTrajectories.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/srv/GetPersonTrajectories.srv
 devel/include/spencer_tracking_msgs/GetPersonTrajectories.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/PersonTrajectory.msg
-devel/include/spencer_tracking_msgs/GetPersonTrajectories.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/include/spencer_tracking_msgs/GetPersonTrajectories.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-devel/include/spencer_tracking_msgs/GetPersonTrajectories.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/include/spencer_tracking_msgs/GetPersonTrajectories.h: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
-devel/include/spencer_tracking_msgs/GetPersonTrajectories.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+devel/include/spencer_tracking_msgs/GetPersonTrajectories.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/include/spencer_tracking_msgs/GetPersonTrajectories.h: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+devel/include/spencer_tracking_msgs/GetPersonTrajectories.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 devel/include/spencer_tracking_msgs/GetPersonTrajectories.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/PersonTrajectoryEntry.msg
+devel/include/spencer_tracking_msgs/GetPersonTrajectories.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/include/spencer_tracking_msgs/GetPersonTrajectories.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/include/spencer_tracking_msgs/GetPersonTrajectories.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/include/spencer_tracking_msgs/GetPersonTrajectories.h: /opt/ros/noetic/share/gencpp/msg.h.template
 devel/include/spencer_tracking_msgs/GetPersonTrajectories.h: /opt/ros/noetic/share/gencpp/srv.h.template
@@ -151,29 +151,29 @@ devel/include/spencer_tracking_msgs/ImmDebugInfo.h: /opt/ros/noetic/share/gencpp
 
 devel/include/spencer_tracking_msgs/ImmDebugInfos.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 devel/include/spencer_tracking_msgs/ImmDebugInfos.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/ImmDebugInfos.msg
-devel/include/spencer_tracking_msgs/ImmDebugInfos.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 devel/include/spencer_tracking_msgs/ImmDebugInfos.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/ImmDebugInfo.msg
+devel/include/spencer_tracking_msgs/ImmDebugInfos.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 devel/include/spencer_tracking_msgs/ImmDebugInfos.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from spencer_tracking_msgs/ImmDebugInfos.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/ImmDebugInfos.msg -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/include/spencer_tracking_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 devel/include/spencer_tracking_msgs/TrackedGroup.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 devel/include/spencer_tracking_msgs/TrackedGroup.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedGroup.msg
+devel/include/spencer_tracking_msgs/TrackedGroup.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/include/spencer_tracking_msgs/TrackedGroup.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/include/spencer_tracking_msgs/TrackedGroup.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/include/spencer_tracking_msgs/TrackedGroup.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-devel/include/spencer_tracking_msgs/TrackedGroup.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-devel/include/spencer_tracking_msgs/TrackedGroup.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/include/spencer_tracking_msgs/TrackedGroup.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from spencer_tracking_msgs/TrackedGroup.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedGroup.msg -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/include/spencer_tracking_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 devel/include/spencer_tracking_msgs/TrackedGroups.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 devel/include/spencer_tracking_msgs/TrackedGroups.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedGroups.msg
-devel/include/spencer_tracking_msgs/TrackedGroups.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/include/spencer_tracking_msgs/TrackedGroups.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/include/spencer_tracking_msgs/TrackedGroups.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-devel/include/spencer_tracking_msgs/TrackedGroups.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/include/spencer_tracking_msgs/TrackedGroups.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedGroup.msg
+devel/include/spencer_tracking_msgs/TrackedGroups.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/include/spencer_tracking_msgs/TrackedGroups.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/include/spencer_tracking_msgs/TrackedGroups.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/include/spencer_tracking_msgs/TrackedGroups.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from spencer_tracking_msgs/TrackedGroups.msg"
@@ -181,12 +181,12 @@ devel/include/spencer_tracking_msgs/TrackedGroups.h: /opt/ros/noetic/share/gencp
 
 devel/include/spencer_tracking_msgs/TrackedPerson.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 devel/include/spencer_tracking_msgs/TrackedPerson.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPerson.msg
-devel/include/spencer_tracking_msgs/TrackedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/include/spencer_tracking_msgs/TrackedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-devel/include/spencer_tracking_msgs/TrackedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/include/spencer_tracking_msgs/TrackedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
-devel/include/spencer_tracking_msgs/TrackedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+devel/include/spencer_tracking_msgs/TrackedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/include/spencer_tracking_msgs/TrackedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+devel/include/spencer_tracking_msgs/TrackedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+devel/include/spencer_tracking_msgs/TrackedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/include/spencer_tracking_msgs/TrackedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/include/spencer_tracking_msgs/TrackedPerson.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/include/spencer_tracking_msgs/TrackedPerson.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from spencer_tracking_msgs/TrackedPerson.msg"
@@ -200,14 +200,14 @@ devel/include/spencer_tracking_msgs/TrackedPerson2d.h: /opt/ros/noetic/share/gen
 
 devel/include/spencer_tracking_msgs/TrackedPersons.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 devel/include/spencer_tracking_msgs/TrackedPersons.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPersons.msg
-devel/include/spencer_tracking_msgs/TrackedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/include/spencer_tracking_msgs/TrackedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-devel/include/spencer_tracking_msgs/TrackedPersons.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-devel/include/spencer_tracking_msgs/TrackedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/include/spencer_tracking_msgs/TrackedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
-devel/include/spencer_tracking_msgs/TrackedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+devel/include/spencer_tracking_msgs/TrackedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/include/spencer_tracking_msgs/TrackedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+devel/include/spencer_tracking_msgs/TrackedPersons.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/include/spencer_tracking_msgs/TrackedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 devel/include/spencer_tracking_msgs/TrackedPersons.h: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPerson.msg
+devel/include/spencer_tracking_msgs/TrackedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/include/spencer_tracking_msgs/TrackedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/include/spencer_tracking_msgs/TrackedPersons.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/include/spencer_tracking_msgs/TrackedPersons.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from spencer_tracking_msgs/TrackedPersons.msg"

@@ -21,6 +21,7 @@
 // graph-based planner
 #include "path_planner/path_planner_node.h"
 #include "path_planner/graph_planner/astar_planner.h"
+#include "path_planner/graph_planner/dmj_astar_planner.h"
 #include "path_planner/graph_planner/jps_planner.h"
 #include "path_planner/graph_planner/dstar_planner.h"
 #include "path_planner/graph_planner/lpa_star_planner.h"
@@ -106,11 +107,17 @@ void PathPlannerNode::initialize(std::string name)
     private_nh.param("expand_zone", is_expand_, false);      // whether publish expand zone or not
 
     // planner name
-    private_nh.param("planner_name", planner_name_, (std::string) "a_star");
+    private_nh.param("planner_name", planner_name_, (std::string) "dmjAstar");
     if (planner_name_ == "a_star")
     {
       g_planner_ = std::make_shared<AStarPathPlanner>(costmap_ros_);
       planner_type_ = GRAPH_PLANNER;
+    }
+    else if (planner_name_ == "dmjAstar")
+    {
+        g_planner_ = std::make_shared<DmjAStarPathPlanner>(costmap_ros_, true);
+        planner_type_ = GRAPH_PLANNER;
+        ROS_INFO("-----------------------USE dmj Astar -----------------------------");
     }
     else if (planner_name_ == "dijkstra")
     {

@@ -92,45 +92,45 @@ devel/share/gennodejs/ros/pedsim_msgs/msg/AgentForce.js: /opt/ros/noetic/share/g
 
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentGroup.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentGroup.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentGroup.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/AgentGroup.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentGroup.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentGroup.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/AgentGroup.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentGroup.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from pedsim_msgs/AgentGroup.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentGroup.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/pedsim_msgs/msg
 
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentGroups.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentGroups.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentGroups.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/AgentGroups.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/AgentGroups.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/AgentGroups.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentGroups.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentGroup.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/AgentGroups.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentGroups.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/AgentGroups.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/AgentGroups.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from pedsim_msgs/AgentGroups.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentGroups.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/pedsim_msgs/msg
 
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentState.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentState.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentState.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/AgentState.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/AgentState.js: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentState.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/AgentState.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/AgentState.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentState.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentState.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentForce.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/AgentState.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/AgentState.js: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/AgentState.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/AgentState.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from pedsim_msgs/AgentState.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentState.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/pedsim_msgs/msg
 
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentStates.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentStates.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentStates.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/AgentStates.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/AgentStates.js: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentStates.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/AgentStates.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/AgentStates.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentState.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/AgentStates.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentStates.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/AgentStates.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentForce.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/AgentStates.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/AgentStates.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentState.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/AgentStates.js: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/AgentStates.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/AgentStates.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from pedsim_msgs/AgentStates.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/AgentStates.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/pedsim_msgs/msg
 
@@ -142,16 +142,16 @@ devel/share/gennodejs/ros/pedsim_msgs/msg/LineObstacle.js: /opt/ros/noetic/share
 
 devel/share/gennodejs/ros/pedsim_msgs/msg/LineObstacles.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/pedsim_msgs/msg/LineObstacles.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/LineObstacles.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/LineObstacles.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/LineObstacle.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/LineObstacles.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/LineObstacles.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/LineObstacles.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/LineObstacle.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from pedsim_msgs/LineObstacles.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/LineObstacles.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/pedsim_msgs/msg
 
 devel/share/gennodejs/ros/pedsim_msgs/msg/SocialActivities.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/pedsim_msgs/msg/SocialActivities.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/SocialActivities.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/SocialActivities.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/SocialActivity.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/SocialActivities.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/SocialActivities.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/SocialActivity.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from pedsim_msgs/SocialActivities.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/SocialActivities.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/pedsim_msgs/msg
 
@@ -167,54 +167,54 @@ devel/share/gennodejs/ros/pedsim_msgs/msg/SocialRelation.js: /home/dmj/study/dmj
 
 devel/share/gennodejs/ros/pedsim_msgs/msg/SocialRelations.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/pedsim_msgs/msg/SocialRelations.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/SocialRelations.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/SocialRelations.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/SocialRelation.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/SocialRelations.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/SocialRelations.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/SocialRelation.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from pedsim_msgs/SocialRelations.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/SocialRelations.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/pedsim_msgs/msg
 
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedGroup.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedGroup.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedGroup.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedGroup.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedGroup.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedGroup.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedGroup.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedGroup.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from pedsim_msgs/TrackedGroup.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedGroup.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/pedsim_msgs/msg
 
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedGroups.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedGroups.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedGroups.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedGroups.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedGroups.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedGroups.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedGroup.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedGroups.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedGroups.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedGroups.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedGroups.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedGroup.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedGroups.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedGroups.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from pedsim_msgs/TrackedGroups.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedGroups.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/pedsim_msgs/msg
 
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPerson.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPerson.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedPerson.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from pedsim_msgs/TrackedPerson.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedPerson.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/pedsim_msgs/msg
 
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPersons.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPersons.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedPersons.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPersons.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedPerson.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Javascript code from pedsim_msgs/TrackedPersons.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/TrackedPersons.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/pedsim_msgs/msg
 
@@ -226,9 +226,9 @@ devel/share/gennodejs/ros/pedsim_msgs/msg/Waypoint.js: /opt/ros/noetic/share/geo
 
 devel/share/gennodejs/ros/pedsim_msgs/msg/Waypoints.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/pedsim_msgs/msg/Waypoints.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/Waypoints.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/Waypoints.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/Waypoint.msg
-devel/share/gennodejs/ros/pedsim_msgs/msg/Waypoints.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/share/gennodejs/ros/pedsim_msgs/msg/Waypoints.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/Waypoints.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+devel/share/gennodejs/ros/pedsim_msgs/msg/Waypoints.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/Waypoint.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Javascript code from pedsim_msgs/Waypoints.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/Waypoints.msg -Ipedsim_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/noetic/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p pedsim_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/pedsim_msgs/msg
 

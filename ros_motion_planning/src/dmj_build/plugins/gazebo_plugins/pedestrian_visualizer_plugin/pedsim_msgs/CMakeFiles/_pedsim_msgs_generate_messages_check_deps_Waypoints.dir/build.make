@@ -67,7 +67,7 @@ include plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFil
 include plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/_pedsim_msgs_generate_messages_check_deps_Waypoints.dir/progress.make
 
 plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/_pedsim_msgs_generate_messages_check_deps_Waypoints:
-	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pedsim_msgs /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/Waypoints.msg pedsim_msgs/Waypoint:geometry_msgs/Point:std_msgs/Header
+	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pedsim_msgs /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/msg/Waypoints.msg std_msgs/Header:geometry_msgs/Point:pedsim_msgs/Waypoint
 
 _pedsim_msgs_generate_messages_check_deps_Waypoints: plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/_pedsim_msgs_generate_messages_check_deps_Waypoints
 _pedsim_msgs_generate_messages_check_deps_Waypoints: plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/_pedsim_msgs_generate_messages_check_deps_Waypoints.dir/build.make

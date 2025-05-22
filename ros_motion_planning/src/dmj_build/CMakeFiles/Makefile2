@@ -1477,12 +1477,12 @@ plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_co
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_cpp.dir/all: plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/_spencer_control_msgs_generate_messages_check_deps_ComponentStatus.dir/all
 	$(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_cpp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_cpp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num= "Built target spencer_control_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=49 "Built target spencer_control_msgs_generate_messages_cpp"
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_cpp.dir/rule
@@ -1508,7 +1508,7 @@ plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_co
 
 # Build rule for subdir invocation for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gencpp.dir/rule
@@ -1530,12 +1530,12 @@ plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_co
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/all: plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/_spencer_control_msgs_generate_messages_check_deps_ComponentStatus.dir/all
 	$(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/depend
 	$(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=49 "Built target spencer_control_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num= "Built target spencer_control_msgs_generate_messages_eus"
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_eus.dir/rule
@@ -1561,7 +1561,7 @@ plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_co
 
 # Build rule for subdir invocation for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_geneus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_geneus.dir/rule
@@ -1583,12 +1583,12 @@ plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_co
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_lisp.dir/all: plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/_spencer_control_msgs_generate_messages_check_deps_ComponentStatus.dir/all
 	$(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_lisp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_lisp.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num= "Built target spencer_control_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=50 "Built target spencer_control_msgs_generate_messages_lisp"
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_lisp.dir/rule
@@ -1614,7 +1614,7 @@ plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_co
 
 # Build rule for subdir invocation for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genlisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_genlisp.dir/rule
@@ -1636,12 +1636,12 @@ plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_co
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/all: plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/_spencer_control_msgs_generate_messages_check_deps_ComponentStatus.dir/all
 	$(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=50 "Built target spencer_control_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num= "Built target spencer_control_msgs_generate_messages_nodejs"
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_generate_messages_nodejs.dir/rule
@@ -1667,7 +1667,7 @@ plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_co
 
 # Build rule for subdir invocation for target.
 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gennodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_control_msgs/CMakeFiles/spencer_control_msgs_gennodejs.dir/rule
@@ -3963,12 +3963,12 @@ plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsi
 plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_generate_messages_eus.dir/all: plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/_pedsim_msgs_generate_messages_check_deps_Waypoints.dir/all
 	$(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_generate_messages_eus.dir/build.make plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_generate_messages_eus.dir/depend
 	$(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_generate_messages_eus.dir/build.make plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=27,28,29,30,31 "Built target pedsim_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=27,28,29,30,31,32 "Built target pedsim_msgs_generate_messages_eus"
 .PHONY : plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_generate_messages_eus.dir/rule
@@ -3994,7 +3994,7 @@ plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsi
 
 # Build rule for subdir invocation for target.
 plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_geneus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_geneus.dir/rule
@@ -4035,12 +4035,12 @@ plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsi
 plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_generate_messages_lisp.dir/all: plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/_pedsim_msgs_generate_messages_check_deps_Waypoints.dir/all
 	$(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_generate_messages_lisp.dir/build.make plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) $(MAKESILENT) -f plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_generate_messages_lisp.dir/build.make plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=32,33,34,35,36,37 "Built target pedsim_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=33,34,35,36,37 "Built target pedsim_msgs_generate_messages_lisp"
 .PHONY : plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_generate_messages_lisp.dir/rule
@@ -4066,7 +4066,7 @@ plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsi
 
 # Build rule for subdir invocation for target.
 plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_genlisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : plugins/gazebo_plugins/pedestrian_visualizer_plugin/pedsim_msgs/CMakeFiles/pedsim_msgs_genlisp.dir/rule
@@ -4549,12 +4549,12 @@ plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/sp
 plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_nodejs.dir/all: plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/_spencer_social_relation_msgs_generate_messages_check_deps_SocialActivities.dir/all
 	$(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_nodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_nodejs.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=60 "Built target spencer_social_relation_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=60,61 "Built target spencer_social_relation_msgs_generate_messages_nodejs"
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_nodejs.dir/rule
@@ -4580,7 +4580,7 @@ plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/sp
 
 # Build rule for subdir invocation for target.
 plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_gennodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_gennodejs.dir/rule
@@ -4608,12 +4608,12 @@ plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/sp
 plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_py.dir/all: plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/_spencer_social_relation_msgs_generate_messages_check_deps_SocialActivities.dir/all
 	$(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_py.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_py.dir/depend
 	$(MAKE) $(MAKESILENT) -f plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_py.dir/build.make plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=61,62 "Built target spencer_social_relation_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=62 "Built target spencer_social_relation_msgs_generate_messages_py"
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_generate_messages_py.dir/rule
@@ -4639,7 +4639,7 @@ plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/sp
 
 # Build rule for subdir invocation for target.
 plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_genpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles 0
 .PHONY : plugins/rviz_plugins/spencer_messages/spencer_social_relation_msgs/CMakeFiles/spencer_social_relation_msgs_genpy.dir/rule

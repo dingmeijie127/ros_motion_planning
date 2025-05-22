@@ -83,9 +83,9 @@ plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/CMakeFiles/spencer_t
 
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPerson.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPerson.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/CompositeDetectedPerson.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPerson.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from spencer_tracking_msgs/CompositeDetectedPerson.msg"
@@ -93,11 +93,11 @@ devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPerson.js: 
 
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/CompositeDetectedPersons.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/CompositeDetectedPerson.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/CompositeDetectedPerson.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from spencer_tracking_msgs/CompositeDetectedPersons.msg"
@@ -105,20 +105,20 @@ devel/share/gennodejs/ros/spencer_tracking_msgs/msg/CompositeDetectedPersons.js:
 
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPerson.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPerson.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from spencer_tracking_msgs/DetectedPerson.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/spencer_tracking_msgs/msg
 
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPersons.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPersons.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPersons.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPersons.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPersons.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPersons.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPerson.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/DetectedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from spencer_tracking_msgs/DetectedPersons.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/DetectedPersons.msg -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/spencer_tracking_msgs/msg
@@ -130,39 +130,39 @@ devel/share/gennodejs/ros/spencer_tracking_msgs/msg/ImmDebugInfo.js: /home/dmj/s
 
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/ImmDebugInfos.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/ImmDebugInfos.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/ImmDebugInfos.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/ImmDebugInfos.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/ImmDebugInfos.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/ImmDebugInfo.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/ImmDebugInfos.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from spencer_tracking_msgs/ImmDebugInfos.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/ImmDebugInfos.msg -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/spencer_tracking_msgs/msg
 
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedGroup.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedGroup.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedGroup.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedGroup.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedGroup.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedGroup.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedGroup.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedGroup.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedGroup.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from spencer_tracking_msgs/TrackedGroup.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedGroup.msg -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/spencer_tracking_msgs/msg
 
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedGroups.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedGroups.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedGroups.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedGroups.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedGroups.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedGroups.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedGroups.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedGroups.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedGroup.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedGroups.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedGroups.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedGroups.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from spencer_tracking_msgs/TrackedGroups.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedGroups.msg -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/spencer_tracking_msgs/msg
 
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPerson.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPerson.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPerson.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPerson.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from spencer_tracking_msgs/TrackedPerson.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPerson.msg -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/spencer_tracking_msgs/msg
@@ -174,14 +174,14 @@ devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPerson2d.js: /home/dm
 
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPersons.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPersons.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPersons.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPersons.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPerson.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackedPersons.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from spencer_tracking_msgs/TrackedPersons.msg"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/TrackedPersons.msg -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/spencer_tracking_msgs/msg
@@ -202,13 +202,13 @@ devel/share/gennodejs/ros/spencer_tracking_msgs/msg/TrackingTimingMetrics.js: /o
 devel/share/gennodejs/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/srv/GetPersonTrajectories.srv
 devel/share/gennodejs/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/PersonTrajectory.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.js: /opt/ros/noetic/share/geometry_msgs/msg/TwistWithCovariance.msg
-devel/share/gennodejs/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseWithCovariance.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.js: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.js: /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg/PersonTrajectoryEntry.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+devel/share/gennodejs/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 devel/share/gennodejs/ros/spencer_tracking_msgs/srv/GetPersonTrajectories.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from spencer_tracking_msgs/GetPersonTrajectories.srv"
 	cd /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/srv/GetPersonTrajectories.srv -Ispencer_tracking_msgs:/home/dmj/study/dmj_learn/ros_motion_planning/src/plugins/rviz_plugins/spencer_messages/spencer_tracking_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p spencer_tracking_msgs -o /home/dmj/study/dmj_learn/ros_motion_planning/src/dmj_build/devel/share/gennodejs/ros/spencer_tracking_msgs/srv

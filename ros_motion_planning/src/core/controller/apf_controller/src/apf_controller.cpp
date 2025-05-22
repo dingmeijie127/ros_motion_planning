@@ -121,7 +121,18 @@ bool APFController::setPlan(const std::vector<geometry_msgs::PoseStamped>& orig_
     return false;
   }
 
-  ROS_INFO("Got new plan");
+    ROS_INFO("Got new plan, total %zu poses", orig_global_plan.size());
+
+    // 遍历打印每个 PoseStamped 的 x, y, yaw
+    for (size_t i = 0; i < orig_global_plan.size(); ++i)
+    {
+        const auto& ps = orig_global_plan[i];
+        double x = ps.pose.position.x;
+        double y = ps.pose.position.y;
+        // 用 tf::getYaw 或 tf2::getYaw 来把四元数转成偏航角
+        double yaw = tf2::getYaw(ps.pose.orientation);
+        ROS_INFO("  [%02zu] x = %.3f, y = %.3f, yaw = %.3f", i, x, y, yaw);
+    }
 
   // set new plan
   global_plan_.clear();
@@ -296,16 +307,16 @@ rmp::common::geometry::Vec2d APFController::getRepulsiveForce()
   double y = current_ps_.pose.position.y;
   rmp::common::geometry::Vec2d rep_force(x, y);
   int mx, my;
-  if (!worldToMap(x, y, mx, my))
+  if (!worldToMap(x, y, mx, my)) // 判断机器人的位置是否超过了代价地图
   {
     ROS_WARN("Failed to convert the robot's coordinates from world map to costmap.");
     return rep_force;
   }
 
-  int nx = costmap_ros_->getCostmap()->getSizeInCellsX();
-  int ny = costmap_ros_->getCostmap()->getSizeInCellsY();
-  double current_cost = costmap_ros_->getCostmap()->getCharMap()[mx + nx * my];
-  if (current_cost >= cost_ub_ || current_cost < cost_lb_)
+  int nx = costmap_ros_->getCostmap()->getSizeInCellsX(); // 地面宽度（栅格数）
+  int ny = costmap_ros_->getCostmap()->getSizeInCellsY(); // 地面高度（栅格数）
+  double current_cost = costmap_ros_->getCostmap()->getCharMap()[mx + nx * my]; // 获取（mx,my）处的代价值
+  if (current_cost >= cost_ub_ || current_cost < cost_lb_) // 判定代价值是否越界
   {
     ROS_WARN(
         "The cost %.0lf of robot's position is out of bound! Are you sure the robot has been"
@@ -319,19 +330,19 @@ rmp::common::geometry::Vec2d APFController::getRepulsiveForce()
   // mapping from cost_lb_ to distance 1  (normalized)
   double bound_diff = cost_ub_ - cost_lb_;
   double dist = (cost_ub_ - current_cost) / bound_diff;
-  double k = (1.0 - 1.0 / dist) / (dist * dist);
+  double k = (1.0 - 1.0 / dist) / (dist * dist); // 这三步骤计算斥力场的系数k，k为负数，因为其要远离障碍物
   double next_x = costmap_ros_->getCostmap()->getCharMap()[std::min(mx + 1, nx - 1) + nx * my];
   double prev_x = costmap_ros_->getCostmap()->getCharMap()[std::max(mx - 1, 0) + nx * my];
   double next_y = costmap_ros_->getCostmap()->getCharMap()[mx + nx * std::min(my + 1, ny - 1)];
   double prev_y = costmap_ros_->getCostmap()->getCharMap()[mx + nx * std::max(my - 1, 0)];
   rmp::common::geometry::Vec2d grad_dist((next_x - prev_x) / (2.0 * bound_diff), (next_y - prev_y) / (2.0 * bound_diff));
-
-  rep_force = k * grad_dist;
+  // grad_dist是该向量的方向
+  rep_force = k * grad_dist; // 此时为斥力的矢量场
 
   return rep_force;
 }
 
-/**
+/** // 计算APF势场
  * @brief Callback function of costmap_sub_ to publish /potential_map topic
  * @param msg the message received from topic /move_base/local_costmap/costmap
  */
@@ -346,7 +357,7 @@ void APFController::publishPotentialMap(const nav_msgs::OccupancyGrid::ConstPtr&
   // calculate costmap coordinates from world coordinates (maybe out of bound)
   int nx = costmap_ros_->getCostmap()->getSizeInCellsX();
   int ny = costmap_ros_->getCostmap()->getSizeInCellsY();
-  double origin_x = costmap_ros_->getCostmap()->getOriginX();
+  double origin_x = costmap_ros_->getCostmap()->getOriginX();// 代价地图原点在世界坐标系中的位置
   double origin_y = costmap_ros_->getCostmap()->getOriginY();
   double resolution = costmap_ros_->getCostmap()->getResolution();
   tx = (int)((target_ps_.pose.position.x - current_ps_.pose.position.x - origin_x) / resolution);
